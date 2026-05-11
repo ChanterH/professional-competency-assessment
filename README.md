@@ -1,9 +1,44 @@
-# Professional-Competency-Assessment
+# Professional Competency Assessment
 
-##professional-competency-assessment/
-##├─ index.html
-##├─ questions_database.json
-##└─ images/
-##   ├─ xxx.png
-##   ├─ xxx.png
-##   └─ ...
+一个基于 HTML、CSS 和 JavaScript 开发的在线综合能力测评网页项目，用于展示和完成职业能力测试与判断推理题目。
+
+项目支持从本地 JSON 题库中读取题目数据，并随机抽取题目生成测评页面，可用于个人练习、模拟测评或在线展示。
+
+## 项目功能
+
+### 1. 题库加载
+
+项目通过 `questions_database.json` 读取题目数据，包括：
+
+- 职业能力测试题
+- 判断推理图形题
+- 题干文本
+- 选项内容
+- 题目图片
+
+### 2. 随机抽题
+
+页面会自动从题库中抽取题目组成试卷，例如：
+
+- 职业能力题
+- 判断推理题
+- 图形推理题
+
+### 3. 图片题展示
+
+对于判断推理等图形题，项目支持展示题目配图。
+
+图片资源统一存放在 `images/` 文件夹中，并通过 JSON 中的路径进行引用。
+
+### 4. 选项作答
+
+每道题目均支持 A、B、C、D 选项按钮作答。
+
+对于图片选项题，即使选项内容本身在图片中展示，页面也会提供 A、B、C、D 四个按钮用于选择答案。
+
+### 5. 答题进度显示
+
+页面顶部会显示当前答题进度，例如：
+
+```text
+已完成 10 / 30
