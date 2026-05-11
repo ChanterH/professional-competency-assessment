@@ -858,23 +858,20 @@
         "images": [
             "images\\pdf_page005_q001.png"
         ],
-        "image": "images\\pdf_page005_q001.png"
+        "image": "images\\pdf_page005_q001.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 5,
         "question_no": 2,
         "question_text": "2.（24 浙江）把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，分\n类正确的一项是：",
-        "options": [
-            "A. ①③④，②⑤⑥",
-            "B. ①③⑥，②④⑤",
-            "C. ①②⑤，③④⑥",
-            "D. ①④⑥，②③⑤"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page005_q002.png"
         ],
-        "image": "images\\pdf_page005_q002.png"
+        "image": "images\\pdf_page005_q002.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -885,23 +882,20 @@
         "images": [
             "images\\pdf_page005_q003.png"
         ],
-        "image": "images\\pdf_page005_q003.png"
+        "image": "images\\pdf_page005_q003.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 6,
         "question_no": 4,
         "question_text": "4.（24 国考）把下面六个图形分为两类，使每一类图形都有各自的共同特征或规律，分类\n正确的一项是：",
-        "options": [
-            "A. ①④⑤，②③⑥",
-            "B. ①③④，②⑤⑥",
-            "C. ①⑤⑥，②③④",
-            "D. ①②⑥，③④⑤"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page006_q004.png"
         ],
-        "image": "images\\pdf_page006_q004.png"
+        "image": "images\\pdf_page006_q004.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -912,7 +906,8 @@
         "images": [
             "images\\pdf_page006_q005.png"
         ],
-        "image": "images\\pdf_page006_q005.png"
+        "image": "images\\pdf_page006_q005.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -923,39 +918,32 @@
         "images": [
             "images\\pdf_page006_q006.png"
         ],
-        "image": "images\\pdf_page006_q006.png"
+        "image": "images\\pdf_page006_q006.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 7,
         "question_no": 7,
         "question_text": "7.（24 浙江）把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，分\n类正确的一项是：",
-        "options": [
-            "A. ①②③，④⑤⑥",
-            "B. ①③④，②⑤⑥",
-            "C. ①④⑥，②③⑤",
-            "D. ①⑤⑥，②③④"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page007_q007.png"
         ],
-        "image": "images\\pdf_page007_q007.png"
+        "image": "images\\pdf_page007_q007.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 7,
         "question_no": 8,
         "question_text": "8.（25 联考事业）把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，\n分类正确的一项是。",
-        "options": [
-            "A. ①③④，②⑤⑥",
-            "B. ①③⑤，②④⑥",
-            "C. ①④⑤，②③⑥",
-            "D. ①⑤⑥，②③④"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page007_q008.png"
         ],
-        "image": "images\\pdf_page007_q008.png"
+        "image": "images\\pdf_page007_q008.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -966,7 +954,8 @@
         "images": [
             "images\\pdf_page007_q009.png"
         ],
-        "image": "images\\pdf_page007_q009.png"
+        "image": "images\\pdf_page007_q009.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -977,7 +966,8 @@
         "images": [
             "images\\pdf_page007_q010.png"
         ],
-        "image": "images\\pdf_page007_q010.png"
+        "image": "images\\pdf_page007_q010.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -988,23 +978,20 @@
         "images": [
             "images\\pdf_page008_q011.png"
         ],
-        "image": "images\\pdf_page008_q011.png"
+        "image": "images\\pdf_page008_q011.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 8,
         "question_no": 12,
         "question_text": "12.（20 北京）把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，分\n类正确的一项是：",
-        "options": [
-            "A. ①②③，④⑤⑥",
-            "B. ①②⑤，③④⑥",
-            "C. ①③⑤，②④⑥",
-            "D. ①④⑥，②③⑤"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page008_q012.png"
         ],
-        "image": "images\\pdf_page008_q012.png"
+        "image": "images\\pdf_page008_q012.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1015,7 +1002,8 @@
         "images": [
             "images\\pdf_page009_q013.png"
         ],
-        "image": "images\\pdf_page009_q013.png"
+        "image": "images\\pdf_page009_q013.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1026,7 +1014,8 @@
         "images": [
             "images\\pdf_page009_q014.png"
         ],
-        "image": "images\\pdf_page009_q014.png"
+        "image": "images\\pdf_page009_q014.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1037,23 +1026,20 @@
         "images": [
             "images\\pdf_page009_q015.png"
         ],
-        "image": "images\\pdf_page009_q015.png"
+        "image": "images\\pdf_page009_q015.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 10,
         "question_no": 16,
         "question_text": "16.（25 联考事业）把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，\n分类正确的一项是。",
-        "options": [
-            "A. ①②④，③⑤⑥",
-            "B. ①③④，②⑤⑥",
-            "C. ①③⑤，②④⑥",
-            "D. ①④⑤，②③⑥"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page010_q016.png"
         ],
-        "image": "images\\pdf_page010_q016.png"
+        "image": "images\\pdf_page010_q016.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1064,7 +1050,8 @@
         "images": [
             "images\\pdf_page010_q017.png"
         ],
-        "image": "images\\pdf_page010_q017.png"
+        "image": "images\\pdf_page010_q017.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1075,7 +1062,8 @@
         "images": [
             "images\\pdf_page010_q018.png"
         ],
-        "image": "images\\pdf_page010_q018.png"
+        "image": "images\\pdf_page010_q018.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1086,7 +1074,8 @@
         "images": [
             "images\\pdf_page011_q019.png"
         ],
-        "image": "images\\pdf_page011_q019.png"
+        "image": "images\\pdf_page011_q019.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1097,7 +1086,8 @@
         "images": [
             "images\\pdf_page011_q020.png"
         ],
-        "image": "images\\pdf_page011_q020.png"
+        "image": "images\\pdf_page011_q020.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1108,7 +1098,8 @@
         "images": [
             "images\\pdf_page011_q021.png"
         ],
-        "image": "images\\pdf_page011_q021.png"
+        "image": "images\\pdf_page011_q021.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1119,7 +1110,8 @@
         "images": [
             "images\\pdf_page012_q022.png"
         ],
-        "image": "images\\pdf_page012_q022.png"
+        "image": "images\\pdf_page012_q022.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1130,37 +1122,32 @@
         "images": [
             "images\\pdf_page012_q023.png"
         ],
-        "image": "images\\pdf_page012_q023.png"
+        "image": "images\\pdf_page012_q023.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 12,
         "question_no": 24,
-        "question_text": "24.（24 国考）上图为13 个白色正方体和5 个灰色正方体组合而成的多面体，现用经",
-        "options": [
-            "A、",
-            "B、\nC 三个顶点的平面对该多面体进行切割，正确的截面是："
-        ],
+        "question_text": "24.（24 国考）上图为13 个白色正方体和5 个灰色正方体组合而成的多面体，现用经A、B、\nC 三个顶点的平面对该多面体进行切割，正确的截面是：",
+        "options": [],
         "images": [
             "images\\pdf_page012_q024.png"
         ],
-        "image": "images\\pdf_page012_q024.png"
+        "image": "images\\pdf_page012_q024.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 13,
         "question_no": 25,
         "question_text": "25.（24 山西）把下面六个图形分为两类，使每一类图形都有各自的共同特征或规律，分类\n正确的一项是：",
-        "options": [
-            "A. ①②③，④⑤⑥",
-            "B. ①②④，③⑤⑥",
-            "C. ①③⑥，②④⑤",
-            "D. ①④⑤，②③⑥\n第六套（特色刷题）"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page013_q025.png"
         ],
-        "image": "images\\pdf_page013_q025.png"
+        "image": "images\\pdf_page013_q025.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1171,7 +1158,8 @@
         "images": [
             "images\\pdf_page013_q026.png"
         ],
-        "image": "images\\pdf_page013_q026.png"
+        "image": "images\\pdf_page013_q026.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1182,7 +1170,8 @@
         "images": [
             "images\\pdf_page013_q027.png"
         ],
-        "image": "images\\pdf_page013_q027.png"
+        "image": "images\\pdf_page013_q027.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1193,7 +1182,8 @@
         "images": [
             "images\\pdf_page014_q028.png"
         ],
-        "image": "images\\pdf_page014_q028.png"
+        "image": "images\\pdf_page014_q028.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1204,7 +1194,8 @@
         "images": [
             "images\\pdf_page014_q029.png"
         ],
-        "image": "images\\pdf_page014_q029.png"
+        "image": "images\\pdf_page014_q029.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1215,23 +1206,20 @@
         "images": [
             "images\\pdf_page014_q030.png"
         ],
-        "image": "images\\pdf_page014_q030.png"
+        "image": "images\\pdf_page014_q030.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 15,
         "question_no": 1,
         "question_text": "1.（25 浙江事业）把下面的六个图形分为两类，使每一类都有各自的共同特征或规律，分\n类正确的一项是。",
-        "options": [
-            "A. ①②④，③⑤⑥",
-            "B. ①②⑥，③④⑤",
-            "C. ①③⑥，②④⑤",
-            "D. ①③⑤，②④⑥"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page015_q001.png"
         ],
-        "image": "images\\pdf_page015_q001.png"
+        "image": "images\\pdf_page015_q001.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1242,7 +1230,8 @@
         "images": [
             "images\\pdf_page015_q002.png"
         ],
-        "image": "images\\pdf_page015_q002.png"
+        "image": "images\\pdf_page015_q002.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1253,7 +1242,8 @@
         "images": [
             "images\\pdf_page015_q003.png"
         ],
-        "image": "images\\pdf_page015_q003.png"
+        "image": "images\\pdf_page015_q003.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1264,7 +1254,8 @@
         "images": [
             "images\\pdf_page016_q004.png"
         ],
-        "image": "images\\pdf_page016_q004.png"
+        "image": "images\\pdf_page016_q004.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1275,7 +1266,8 @@
         "images": [
             "images\\pdf_page016_q005.png"
         ],
-        "image": "images\\pdf_page016_q005.png"
+        "image": "images\\pdf_page016_q005.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1286,7 +1278,8 @@
         "images": [
             "images\\pdf_page017_q006.png"
         ],
-        "image": "images\\pdf_page017_q006.png"
+        "image": "images\\pdf_page017_q006.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1297,7 +1290,8 @@
         "images": [
             "images\\pdf_page017_q007.png"
         ],
-        "image": "images\\pdf_page017_q007.png"
+        "image": "images\\pdf_page017_q007.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1308,23 +1302,20 @@
         "images": [
             "images\\pdf_page017_q008.png"
         ],
-        "image": "images\\pdf_page017_q008.png"
+        "image": "images\\pdf_page017_q008.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 18,
         "question_no": 9,
         "question_text": "9.（25 浙江事业）把下面的六个图形分为两类，使每一类都有各自的共同特征或规律，分\n类正确的一项是。",
-        "options": [
-            "A. ①②③，④⑤⑥",
-            "B. ①⑤⑥，②③④",
-            "C. ①②⑥，③④⑤",
-            "D. ①④⑥，②③⑤"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page018_q009.png"
         ],
-        "image": "images\\pdf_page018_q009.png"
+        "image": "images\\pdf_page018_q009.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1335,23 +1326,20 @@
         "images": [
             "images\\pdf_page018_q010.png"
         ],
-        "image": "images\\pdf_page018_q010.png"
+        "image": "images\\pdf_page018_q010.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 18,
         "question_no": 11,
         "question_text": "11.（24 四川事业）把下面的图形分为两类，使每一类图形都有各自的共同特征或规律。选\n出分类正确的一项。",
-        "options": [
-            "A. ①②⑥；③④⑤",
-            "B. ①⑤⑥；②③④",
-            "C. ①④⑥；②③⑤",
-            "D. ①③⑥；②④⑤"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page018_q011.png"
         ],
-        "image": "images\\pdf_page018_q011.png"
+        "image": "images\\pdf_page018_q011.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1362,7 +1350,8 @@
         "images": [
             "images\\pdf_page019_q012.png"
         ],
-        "image": "images\\pdf_page019_q012.png"
+        "image": "images\\pdf_page019_q012.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1373,7 +1362,8 @@
         "images": [
             "images\\pdf_page019_q013.png"
         ],
-        "image": "images\\pdf_page019_q013.png"
+        "image": "images\\pdf_page019_q013.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1384,7 +1374,8 @@
         "images": [
             "images\\pdf_page019_q014.png"
         ],
-        "image": "images\\pdf_page019_q014.png"
+        "image": "images\\pdf_page019_q014.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1395,7 +1386,8 @@
         "images": [
             "images\\pdf_page020_q015.png"
         ],
-        "image": "images\\pdf_page020_q015.png"
+        "image": "images\\pdf_page020_q015.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1406,7 +1398,8 @@
         "images": [
             "images\\pdf_page020_q016.png"
         ],
-        "image": "images\\pdf_page020_q016.png"
+        "image": "images\\pdf_page020_q016.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1417,7 +1410,8 @@
         "images": [
             "images\\pdf_page020_q017.png"
         ],
-        "image": "images\\pdf_page020_q017.png"
+        "image": "images\\pdf_page020_q017.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1428,7 +1422,8 @@
         "images": [
             "images\\pdf_page021_q018.png"
         ],
-        "image": "images\\pdf_page021_q018.png"
+        "image": "images\\pdf_page021_q018.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1439,7 +1434,8 @@
         "images": [
             "images\\pdf_page021_q019.png"
         ],
-        "image": "images\\pdf_page021_q019.png"
+        "image": "images\\pdf_page021_q019.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1450,7 +1446,8 @@
         "images": [
             "images\\pdf_page021_q020.png"
         ],
-        "image": "images\\pdf_page021_q020.png"
+        "image": "images\\pdf_page021_q020.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1461,7 +1458,8 @@
         "images": [
             "images\\pdf_page022_q021.png"
         ],
-        "image": "images\\pdf_page022_q021.png"
+        "image": "images\\pdf_page022_q021.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1472,7 +1470,8 @@
         "images": [
             "images\\pdf_page022_q022.png"
         ],
-        "image": "images\\pdf_page022_q022.png"
+        "image": "images\\pdf_page022_q022.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1483,21 +1482,20 @@
         "images": [
             "images\\pdf_page022_q023.png"
         ],
-        "image": "images\\pdf_page022_q023.png"
+        "image": "images\\pdf_page022_q023.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 23,
         "question_no": 24,
-        "question_text": "24.（25 北京事业）左图为给定的多面体，将其沿过",
-        "options": [
-            "A、",
-            "B、C 三个顶点的平面切开后，正\n确的切面是。"
-        ],
+        "question_text": "24.（25 北京事业）左图为给定的多面体，将其沿过A、B、C 三个顶点的平面切开后，正\n确的切面是。",
+        "options": [],
         "images": [
             "images\\pdf_page023_q024.png"
         ],
-        "image": "images\\pdf_page023_q024.png"
+        "image": "images\\pdf_page023_q024.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1508,7 +1506,8 @@
         "images": [
             "images\\pdf_page023_q025.png"
         ],
-        "image": "images\\pdf_page023_q025.png"
+        "image": "images\\pdf_page023_q025.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1519,7 +1518,8 @@
         "images": [
             "images\\pdf_page023_q026.png"
         ],
-        "image": "images\\pdf_page023_q026.png"
+        "image": "images\\pdf_page023_q026.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1530,7 +1530,8 @@
         "images": [
             "images\\pdf_page023_q027.png"
         ],
-        "image": "images\\pdf_page023_q027.png"
+        "image": "images\\pdf_page023_q027.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1541,7 +1542,8 @@
         "images": [
             "images\\pdf_page024_q028.png"
         ],
-        "image": "images\\pdf_page024_q028.png"
+        "image": "images\\pdf_page024_q028.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1552,7 +1554,8 @@
         "images": [
             "images\\pdf_page024_q029.png"
         ],
-        "image": "images\\pdf_page024_q029.png"
+        "image": "images\\pdf_page024_q029.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1563,7 +1566,8 @@
         "images": [
             "images\\pdf_page024_q030.png"
         ],
-        "image": "images\\pdf_page024_q030.png"
+        "image": "images\\pdf_page024_q030.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1574,7 +1578,8 @@
         "images": [
             "images\\pdf_page025_q001.png"
         ],
-        "image": "images\\pdf_page025_q001.png"
+        "image": "images\\pdf_page025_q001.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1585,7 +1590,8 @@
         "images": [
             "images\\pdf_page025_q002.png"
         ],
-        "image": "images\\pdf_page025_q002.png"
+        "image": "images\\pdf_page025_q002.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1596,7 +1602,8 @@
         "images": [
             "images\\pdf_page026_q003.png"
         ],
-        "image": "images\\pdf_page026_q003.png"
+        "image": "images\\pdf_page026_q003.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1607,7 +1614,8 @@
         "images": [
             "images\\pdf_page026_q004.png"
         ],
-        "image": "images\\pdf_page026_q004.png"
+        "image": "images\\pdf_page026_q004.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1618,7 +1626,8 @@
         "images": [
             "images\\pdf_page026_q005.png"
         ],
-        "image": "images\\pdf_page026_q005.png"
+        "image": "images\\pdf_page026_q005.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1629,23 +1638,20 @@
         "images": [
             "images\\pdf_page027_q006.png"
         ],
-        "image": "images\\pdf_page027_q006.png"
+        "image": "images\\pdf_page027_q006.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 27,
         "question_no": 7,
         "question_text": "7.（24 山西）把下面六个图形分为两类，使每一类图形都有各自的共同特征或规律，分类\n正确的一项是：",
-        "options": [
-            "A. ①②③，④⑤⑥",
-            "B. ①②⑤，③④⑥",
-            "C. ①③⑤，②④⑥",
-            "D. ①④⑥，②③⑤"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page027_q007.png"
         ],
-        "image": "images\\pdf_page027_q007.png"
+        "image": "images\\pdf_page027_q007.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1656,23 +1662,20 @@
         "images": [
             "images\\pdf_page027_q008.png"
         ],
-        "image": "images\\pdf_page027_q008.png"
+        "image": "images\\pdf_page027_q008.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 28,
         "question_no": 9,
         "question_text": "9.（21 浙江）把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，分\n类正确的一项是：",
-        "options": [
-            "A. ①③④，②⑤⑥",
-            "B. ①③⑤，②④⑥",
-            "C. ①②⑥，③④⑤",
-            "D. ①④⑥，②③⑤"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page028_q009.png"
         ],
-        "image": "images\\pdf_page028_q009.png"
+        "image": "images\\pdf_page028_q009.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1683,23 +1686,20 @@
         "images": [
             "images\\pdf_page028_q010.png"
         ],
-        "image": "images\\pdf_page028_q010.png"
+        "image": "images\\pdf_page028_q010.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 29,
         "question_no": 11,
         "question_text": "11.（23 联考）把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，分\n类正确的一项是：",
-        "options": [
-            "A. ①②③，④⑤⑥",
-            "B. ①③⑥，②④⑤",
-            "C. ①③④，②⑤⑥",
-            "D. ①④⑤，②③⑥"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page029_q011.png"
         ],
-        "image": "images\\pdf_page029_q011.png"
+        "image": "images\\pdf_page029_q011.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1710,7 +1710,8 @@
         "images": [
             "images\\pdf_page029_q012.png"
         ],
-        "image": "images\\pdf_page029_q012.png"
+        "image": "images\\pdf_page029_q012.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1721,7 +1722,8 @@
         "images": [
             "images\\pdf_page029_q013.png"
         ],
-        "image": "images\\pdf_page029_q013.png"
+        "image": "images\\pdf_page029_q013.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1732,7 +1734,8 @@
         "images": [
             "images\\pdf_page030_q014.png"
         ],
-        "image": "images\\pdf_page030_q014.png"
+        "image": "images\\pdf_page030_q014.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1743,7 +1746,8 @@
         "images": [
             "images\\pdf_page030_q015.png"
         ],
-        "image": "images\\pdf_page030_q015.png"
+        "image": "images\\pdf_page030_q015.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1754,23 +1758,20 @@
         "images": [
             "images\\pdf_page030_q016.png"
         ],
-        "image": "images\\pdf_page030_q016.png"
+        "image": "images\\pdf_page030_q016.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 31,
         "question_no": 17,
         "question_text": "17.（21 四川）将下列六个图形分为两类，使每一类图形都有各自的特征或规律，分类正确\n的是：",
-        "options": [
-            "A. ①②④，③⑤⑥",
-            "B. ①⑤⑥，②③④",
-            "C. ①③⑤，②④⑥",
-            "D. ①③⑥，②④⑤"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page031_q017.png"
         ],
-        "image": "images\\pdf_page031_q017.png"
+        "image": "images\\pdf_page031_q017.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1781,7 +1782,8 @@
         "images": [
             "images\\pdf_page031_q018.png"
         ],
-        "image": "images\\pdf_page031_q018.png"
+        "image": "images\\pdf_page031_q018.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1792,7 +1794,8 @@
         "images": [
             "images\\pdf_page031_q019.png"
         ],
-        "image": "images\\pdf_page031_q019.png"
+        "image": "images\\pdf_page031_q019.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1803,23 +1806,20 @@
         "images": [
             "images\\pdf_page032_q020.png"
         ],
-        "image": "images\\pdf_page032_q020.png"
+        "image": "images\\pdf_page032_q020.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 32,
         "question_no": 21,
         "question_text": "21.（23 联考）把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，分\n类正确的一项是：",
-        "options": [
-            "A. ①③④，②⑤⑥",
-            "B. ①③⑤，②④⑥",
-            "C. ①②⑥，③④⑤",
-            "D. ①④⑥，②③⑤"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page032_q021.png"
         ],
-        "image": "images\\pdf_page032_q021.png"
+        "image": "images\\pdf_page032_q021.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1830,7 +1830,8 @@
         "images": [
             "images\\pdf_page032_q022.png"
         ],
-        "image": "images\\pdf_page032_q022.png"
+        "image": "images\\pdf_page032_q022.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1841,7 +1842,8 @@
         "images": [
             "images\\pdf_page033_q023.png"
         ],
-        "image": "images\\pdf_page033_q023.png"
+        "image": "images\\pdf_page033_q023.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1852,7 +1854,8 @@
         "images": [
             "images\\pdf_page033_q024.png"
         ],
-        "image": "images\\pdf_page033_q024.png"
+        "image": "images\\pdf_page033_q024.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1863,7 +1866,8 @@
         "images": [
             "images\\pdf_page033_q025.png"
         ],
-        "image": "images\\pdf_page033_q025.png"
+        "image": "images\\pdf_page033_q025.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1874,7 +1878,8 @@
         "images": [
             "images\\pdf_page034_q026.png"
         ],
-        "image": "images\\pdf_page034_q026.png"
+        "image": "images\\pdf_page034_q026.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1885,7 +1890,8 @@
         "images": [
             "images\\pdf_page034_q027.png"
         ],
-        "image": "images\\pdf_page034_q027.png"
+        "image": "images\\pdf_page034_q027.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1896,7 +1902,8 @@
         "images": [
             "images\\pdf_page034_q028.png"
         ],
-        "image": "images\\pdf_page034_q028.png"
+        "image": "images\\pdf_page034_q028.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1907,7 +1914,8 @@
         "images": [
             "images\\pdf_page035_q029.png"
         ],
-        "image": "images\\pdf_page035_q029.png"
+        "image": "images\\pdf_page035_q029.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1918,7 +1926,8 @@
         "images": [
             "images\\pdf_page035_q030.png"
         ],
-        "image": "images\\pdf_page035_q030.png"
+        "image": "images\\pdf_page035_q030.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1929,7 +1938,8 @@
         "images": [
             "images\\pdf_page036_q001.png"
         ],
-        "image": "images\\pdf_page036_q001.png"
+        "image": "images\\pdf_page036_q001.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1940,7 +1950,8 @@
         "images": [
             "images\\pdf_page036_q002.png"
         ],
-        "image": "images\\pdf_page036_q002.png"
+        "image": "images\\pdf_page036_q002.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1951,7 +1962,8 @@
         "images": [
             "images\\pdf_page037_q003.png"
         ],
-        "image": "images\\pdf_page037_q003.png"
+        "image": "images\\pdf_page037_q003.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1962,23 +1974,20 @@
         "images": [
             "images\\pdf_page037_q004.png"
         ],
-        "image": "images\\pdf_page037_q004.png"
+        "image": "images\\pdf_page037_q004.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 37,
         "question_no": 5,
         "question_text": "5.（21 联考）把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，分\n类正确的一项是：",
-        "options": [
-            "A. ①③④，②⑤⑥",
-            "B. ①③⑤，②④⑥",
-            "C. ①②⑥，③④⑤",
-            "D. ①④⑥，②③⑤"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page037_q005.png"
         ],
-        "image": "images\\pdf_page037_q005.png"
+        "image": "images\\pdf_page037_q005.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -1989,7 +1998,8 @@
         "images": [
             "images\\pdf_page038_q006.png"
         ],
-        "image": "images\\pdf_page038_q006.png"
+        "image": "images\\pdf_page038_q006.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2000,7 +2010,8 @@
         "images": [
             "images\\pdf_page038_q007.png"
         ],
-        "image": "images\\pdf_page038_q007.png"
+        "image": "images\\pdf_page038_q007.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2011,7 +2022,8 @@
         "images": [
             "images\\pdf_page038_q008.png"
         ],
-        "image": "images\\pdf_page038_q008.png"
+        "image": "images\\pdf_page038_q008.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2022,23 +2034,20 @@
         "images": [
             "images\\pdf_page039_q009.png"
         ],
-        "image": "images\\pdf_page039_q009.png"
+        "image": "images\\pdf_page039_q009.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 39,
         "question_no": 10,
         "question_text": "10.（23 福建事业）把下面的图形分为两类，使每一类图形都有各自的共同特征或规律，分\n类正确的一项是。",
-        "options": [
-            "A. ①②③，④⑤⑥",
-            "B. ①②⑥，③④⑤",
-            "C. ①④⑤，②③⑥",
-            "D. ①③④，②⑤⑥"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page039_q010.png"
         ],
-        "image": "images\\pdf_page039_q010.png"
+        "image": "images\\pdf_page039_q010.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2049,7 +2058,8 @@
         "images": [
             "images\\pdf_page039_q011.png"
         ],
-        "image": "images\\pdf_page039_q011.png"
+        "image": "images\\pdf_page039_q011.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2060,7 +2070,8 @@
         "images": [
             "images\\pdf_page040_q012.png"
         ],
-        "image": "images\\pdf_page040_q012.png"
+        "image": "images\\pdf_page040_q012.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2071,7 +2082,8 @@
         "images": [
             "images\\pdf_page040_q013.png"
         ],
-        "image": "images\\pdf_page040_q013.png"
+        "image": "images\\pdf_page040_q013.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2082,7 +2094,8 @@
         "images": [
             "images\\pdf_page040_q014.png"
         ],
-        "image": "images\\pdf_page040_q014.png"
+        "image": "images\\pdf_page040_q014.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2093,7 +2106,8 @@
         "images": [
             "images\\pdf_page041_q015.png"
         ],
-        "image": "images\\pdf_page041_q015.png"
+        "image": "images\\pdf_page041_q015.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2104,7 +2118,8 @@
         "images": [
             "images\\pdf_page041_q016.png"
         ],
-        "image": "images\\pdf_page041_q016.png"
+        "image": "images\\pdf_page041_q016.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2115,7 +2130,8 @@
         "images": [
             "images\\pdf_page042_q017.png"
         ],
-        "image": "images\\pdf_page042_q017.png"
+        "image": "images\\pdf_page042_q017.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2126,7 +2142,8 @@
         "images": [
             "images\\pdf_page042_q018.png"
         ],
-        "image": "images\\pdf_page042_q018.png"
+        "image": "images\\pdf_page042_q018.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2137,7 +2154,8 @@
         "images": [
             "images\\pdf_page042_q019.png"
         ],
-        "image": "images\\pdf_page042_q019.png"
+        "image": "images\\pdf_page042_q019.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2148,7 +2166,8 @@
         "images": [
             "images\\pdf_page042_q020.png"
         ],
-        "image": "images\\pdf_page042_q020.png"
+        "image": "images\\pdf_page042_q020.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2159,23 +2178,20 @@
         "images": [
             "images\\pdf_page043_q021.png"
         ],
-        "image": "images\\pdf_page043_q021.png"
+        "image": "images\\pdf_page043_q021.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 43,
         "question_no": 22,
         "question_text": "22.（24 国考）把下面六个图形分为两类，使每一类图形都有各自的共同特征或规律，分类\n正确的一项是：",
-        "options": [
-            "A. ①②⑥，③④⑤",
-            "B. ①③④，②⑤⑥",
-            "C. ①③⑥，②④⑤",
-            "D. ①③⑤，②④⑥"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page043_q022.png"
         ],
-        "image": "images\\pdf_page043_q022.png"
+        "image": "images\\pdf_page043_q022.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2186,7 +2202,8 @@
         "images": [
             "images\\pdf_page043_q023.png"
         ],
-        "image": "images\\pdf_page043_q023.png"
+        "image": "images\\pdf_page043_q023.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2197,7 +2214,8 @@
         "images": [
             "images\\pdf_page044_q024.png"
         ],
-        "image": "images\\pdf_page044_q024.png"
+        "image": "images\\pdf_page044_q024.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2208,7 +2226,8 @@
         "images": [
             "images\\pdf_page044_q025.png"
         ],
-        "image": "images\\pdf_page044_q025.png"
+        "image": "images\\pdf_page044_q025.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2219,7 +2238,8 @@
         "images": [
             "images\\pdf_page044_q026.png"
         ],
-        "image": "images\\pdf_page044_q026.png"
+        "image": "images\\pdf_page044_q026.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2230,23 +2250,20 @@
         "images": [
             "images\\pdf_page045_q027.png"
         ],
-        "image": "images\\pdf_page045_q027.png"
+        "image": "images\\pdf_page045_q027.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 45,
         "question_no": 28,
         "question_text": "28.（24 联考事业）以下4 个图形中，将1 个白色圆形涂黑后能成为轴对称图形的有几个？",
-        "options": [
-            "A. 1",
-            "B. 2",
-            "C. 3",
-            "D. 4"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page045_q028.png"
         ],
-        "image": "images\\pdf_page045_q028.png"
+        "image": "images\\pdf_page045_q028.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2257,7 +2274,8 @@
         "images": [
             "images\\pdf_page045_q029.png"
         ],
-        "image": "images\\pdf_page045_q029.png"
+        "image": "images\\pdf_page045_q029.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2268,7 +2286,8 @@
         "images": [
             "images\\pdf_page046_q030.png"
         ],
-        "image": "images\\pdf_page046_q030.png"
+        "image": "images\\pdf_page046_q030.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2279,39 +2298,32 @@
         "images": [
             "images\\pdf_page047_q001.png"
         ],
-        "image": "images\\pdf_page047_q001.png"
+        "image": "images\\pdf_page047_q001.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 47,
         "question_no": 2,
         "question_text": "2.（22 国考）把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，分\n类正确的一项是：",
-        "options": [
-            "A. ①②④，③⑤⑥",
-            "B. ①③⑤，②④⑥",
-            "C. ①④⑤，②③⑥",
-            "D. ①②⑥，③④⑤"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page047_q002.png"
         ],
-        "image": "images\\pdf_page047_q002.png"
+        "image": "images\\pdf_page047_q002.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 48,
         "question_no": 3,
         "question_text": "3.（24 广东事业）把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，\n分类最为恰当的一项是。",
-        "options": [
-            "A. ①②③，④⑤⑥",
-            "B. ①②④，③⑤⑥",
-            "C. ①③⑤，②④⑥",
-            "D. ①④⑤，②③⑥"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page048_q003.png"
         ],
-        "image": "images\\pdf_page048_q003.png"
+        "image": "images\\pdf_page048_q003.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2322,7 +2334,8 @@
         "images": [
             "images\\pdf_page048_q004.png"
         ],
-        "image": "images\\pdf_page048_q004.png"
+        "image": "images\\pdf_page048_q004.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2333,7 +2346,8 @@
         "images": [
             "images\\pdf_page048_q005.png"
         ],
-        "image": "images\\pdf_page048_q005.png"
+        "image": "images\\pdf_page048_q005.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2344,23 +2358,20 @@
         "images": [
             "images\\pdf_page049_q006.png"
         ],
-        "image": "images\\pdf_page049_q006.png"
+        "image": "images\\pdf_page049_q006.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 49,
         "question_no": 7,
         "question_text": "7.（23 联考）把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，分\n类正确的一项是：",
-        "options": [
-            "A. ①②③，④⑤⑥",
-            "B. ①②⑥，③④⑤",
-            "C. ①②④，③⑤⑥",
-            "D. ①④⑥，②③⑤"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page049_q007.png"
         ],
-        "image": "images\\pdf_page049_q007.png"
+        "image": "images\\pdf_page049_q007.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2371,7 +2382,8 @@
         "images": [
             "images\\pdf_page049_q008.png"
         ],
-        "image": "images\\pdf_page049_q008.png"
+        "image": "images\\pdf_page049_q008.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2382,23 +2394,20 @@
         "images": [
             "images\\pdf_page050_q009.png"
         ],
-        "image": "images\\pdf_page050_q009.png"
+        "image": "images\\pdf_page050_q009.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 50,
         "question_no": 10,
         "question_text": "10.（24 四川事业）把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，\n分类正确的一项是。",
-        "options": [
-            "A. ①③⑤，②④⑥",
-            "B. ①④⑥，②③⑤",
-            "C. ①②④，③⑤⑥",
-            "D. ①⑤⑥，②③④"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page050_q010.png"
         ],
-        "image": "images\\pdf_page050_q010.png"
+        "image": "images\\pdf_page050_q010.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2409,7 +2418,8 @@
         "images": [
             "images\\pdf_page050_q011.png"
         ],
-        "image": "images\\pdf_page050_q011.png"
+        "image": "images\\pdf_page050_q011.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2420,7 +2430,8 @@
         "images": [
             "images\\pdf_page051_q012.png"
         ],
-        "image": "images\\pdf_page051_q012.png"
+        "image": "images\\pdf_page051_q012.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2431,7 +2442,8 @@
         "images": [
             "images\\pdf_page051_q013.png"
         ],
-        "image": "images\\pdf_page051_q013.png"
+        "image": "images\\pdf_page051_q013.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2442,23 +2454,20 @@
         "images": [
             "images\\pdf_page051_q014.png"
         ],
-        "image": "images\\pdf_page051_q014.png"
+        "image": "images\\pdf_page051_q014.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 51,
         "question_no": 15,
         "question_text": "15.（24 广东事业）把下面的六个小图形分为两类，使得一类图形都有各自的共同特征或规\n律，分类正确的一项是。",
-        "options": [
-            "A. ①②⑤，③④⑥",
-            "B. ①③④，②⑤⑥",
-            "C. ①④⑥，②③⑤",
-            "D. ①②⑥，③④⑤"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page051_q015.png"
         ],
-        "image": "images\\pdf_page051_q015.png"
+        "image": "images\\pdf_page051_q015.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2469,7 +2478,8 @@
         "images": [
             "images\\pdf_page052_q016.png"
         ],
-        "image": "images\\pdf_page052_q016.png"
+        "image": "images\\pdf_page052_q016.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2480,23 +2490,20 @@
         "images": [
             "images\\pdf_page052_q017.png"
         ],
-        "image": "images\\pdf_page052_q017.png"
+        "image": "images\\pdf_page052_q017.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 52,
         "question_no": 18,
         "question_text": "18.（22 山东）以下七个图形去掉哪一个后，剩下的图形能呈现一定的规律性？",
-        "options": [
-            "A. ③",
-            "B. ④",
-            "C. ⑤",
-            "D. ⑥"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page052_q018.png"
         ],
-        "image": "images\\pdf_page052_q018.png"
+        "image": "images\\pdf_page052_q018.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2507,7 +2514,8 @@
         "images": [
             "images\\pdf_page053_q019.png"
         ],
-        "image": "images\\pdf_page053_q019.png"
+        "image": "images\\pdf_page053_q019.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2518,7 +2526,8 @@
         "images": [
             "images\\pdf_page053_q020.png"
         ],
-        "image": "images\\pdf_page053_q020.png"
+        "image": "images\\pdf_page053_q020.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2529,7 +2538,8 @@
         "images": [
             "images\\pdf_page053_q021.png"
         ],
-        "image": "images\\pdf_page053_q021.png"
+        "image": "images\\pdf_page053_q021.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2540,7 +2550,8 @@
         "images": [
             "images\\pdf_page053_q022.png"
         ],
-        "image": "images\\pdf_page053_q022.png"
+        "image": "images\\pdf_page053_q022.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2551,7 +2562,8 @@
         "images": [
             "images\\pdf_page054_q023.png"
         ],
-        "image": "images\\pdf_page054_q023.png"
+        "image": "images\\pdf_page054_q023.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2562,7 +2574,8 @@
         "images": [
             "images\\pdf_page054_q024.png"
         ],
-        "image": "images\\pdf_page054_q024.png"
+        "image": "images\\pdf_page054_q024.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2573,7 +2586,8 @@
         "images": [
             "images\\pdf_page054_q025.png"
         ],
-        "image": "images\\pdf_page054_q025.png"
+        "image": "images\\pdf_page054_q025.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2584,7 +2598,8 @@
         "images": [
             "images\\pdf_page055_q026.png"
         ],
-        "image": "images\\pdf_page055_q026.png"
+        "image": "images\\pdf_page055_q026.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2595,7 +2610,8 @@
         "images": [
             "images\\pdf_page055_q027.png"
         ],
-        "image": "images\\pdf_page055_q027.png"
+        "image": "images\\pdf_page055_q027.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2606,7 +2622,8 @@
         "images": [
             "images\\pdf_page055_q028.png"
         ],
-        "image": "images\\pdf_page055_q028.png"
+        "image": "images\\pdf_page055_q028.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2617,7 +2634,8 @@
         "images": [
             "images\\pdf_page056_q029.png"
         ],
-        "image": "images\\pdf_page056_q029.png"
+        "image": "images\\pdf_page056_q029.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2628,7 +2646,8 @@
         "images": [
             "images\\pdf_page056_q030.png"
         ],
-        "image": "images\\pdf_page056_q030.png"
+        "image": "images\\pdf_page056_q030.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2639,23 +2658,20 @@
         "images": [
             "images\\pdf_page057_q001.png"
         ],
-        "image": "images\\pdf_page057_q001.png"
+        "image": "images\\pdf_page057_q001.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 57,
         "question_no": 2,
         "question_text": "2.（21 联考）把下面的图形分为两类，使每一类图形都有各自的共同特征或规律，分类正\n确的一项是：",
-        "options": [
-            "A. ①④⑥，②③⑤",
-            "B. ①③⑤，②④⑥",
-            "C. ①②④，③⑤⑥",
-            "D. ①⑤⑥，②③④"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page057_q002.png"
         ],
-        "image": "images\\pdf_page057_q002.png"
+        "image": "images\\pdf_page057_q002.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2666,7 +2682,8 @@
         "images": [
             "images\\pdf_page057_q003.png"
         ],
-        "image": "images\\pdf_page057_q003.png"
+        "image": "images\\pdf_page057_q003.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2677,7 +2694,8 @@
         "images": [
             "images\\pdf_page058_q004.png"
         ],
-        "image": "images\\pdf_page058_q004.png"
+        "image": "images\\pdf_page058_q004.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2688,7 +2706,8 @@
         "images": [
             "images\\pdf_page058_q005.png"
         ],
-        "image": "images\\pdf_page058_q005.png"
+        "image": "images\\pdf_page058_q005.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2699,7 +2718,8 @@
         "images": [
             "images\\pdf_page058_q006.png"
         ],
-        "image": "images\\pdf_page058_q006.png"
+        "image": "images\\pdf_page058_q006.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2710,7 +2730,8 @@
         "images": [
             "images\\pdf_page059_q007.png"
         ],
-        "image": "images\\pdf_page059_q007.png"
+        "image": "images\\pdf_page059_q007.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2721,7 +2742,8 @@
         "images": [
             "images\\pdf_page059_q008.png"
         ],
-        "image": "images\\pdf_page059_q008.png"
+        "image": "images\\pdf_page059_q008.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2732,23 +2754,20 @@
         "images": [
             "images\\pdf_page059_q009.png"
         ],
-        "image": "images\\pdf_page059_q009.png"
+        "image": "images\\pdf_page059_q009.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 60,
         "question_no": 10,
         "question_text": "10.（23 广东事业）把下面的六个小图形分为两类，使每一类图形都有各自的共同特征或规\n律分类正确的一项是。",
-        "options": [
-            "A. ①②③，④⑤⑥",
-            "B. ①②⑤，③④⑥",
-            "C. ①④⑤，②③⑥",
-            "D. ①⑤⑥，②③④"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page060_q010.png"
         ],
-        "image": "images\\pdf_page060_q010.png"
+        "image": "images\\pdf_page060_q010.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2759,7 +2778,8 @@
         "images": [
             "images\\pdf_page060_q011.png"
         ],
-        "image": "images\\pdf_page060_q011.png"
+        "image": "images\\pdf_page060_q011.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2770,7 +2790,8 @@
         "images": [
             "images\\pdf_page060_q012.png"
         ],
-        "image": "images\\pdf_page060_q012.png"
+        "image": "images\\pdf_page060_q012.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2781,7 +2802,8 @@
         "images": [
             "images\\pdf_page060_q013.png"
         ],
-        "image": "images\\pdf_page060_q013.png"
+        "image": "images\\pdf_page060_q013.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2792,7 +2814,8 @@
         "images": [
             "images\\pdf_page061_q014.png"
         ],
-        "image": "images\\pdf_page061_q014.png"
+        "image": "images\\pdf_page061_q014.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2803,23 +2826,20 @@
         "images": [
             "images\\pdf_page061_q015.png"
         ],
-        "image": "images\\pdf_page061_q015.png"
+        "image": "images\\pdf_page061_q015.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 61,
         "question_no": 16,
         "question_text": "16.（24 河北事业）把下面的六个图形分为两类，使各类图形都有各自的共同特征或规律，\n分类最为恰当的一项是。",
-        "options": [
-            "A. ①②③，④⑤⑥",
-            "B. ①③⑥，②④⑤",
-            "C. ①⑤⑥，②③④",
-            "D. ①③⑤，②④⑥"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page061_q016.png"
         ],
-        "image": "images\\pdf_page061_q016.png"
+        "image": "images\\pdf_page061_q016.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2830,23 +2850,20 @@
         "images": [
             "images\\pdf_page062_q017.png"
         ],
-        "image": "images\\pdf_page062_q017.png"
+        "image": "images\\pdf_page062_q017.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 62,
         "question_no": 18,
         "question_text": "18.（20 广东事业）将以下6 个图形分成两类，使每一类图形都有各自的共同特征或规律，\n分类正确的一项是。",
-        "options": [
-            "A. ①②⑥，③④⑤",
-            "B. ①④⑤，②③⑤",
-            "C. ①③④，②⑤⑥",
-            "D. ①③⑤，②④⑥"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page062_q018.png"
         ],
-        "image": "images\\pdf_page062_q018.png"
+        "image": "images\\pdf_page062_q018.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2857,7 +2874,8 @@
         "images": [
             "images\\pdf_page062_q019.png"
         ],
-        "image": "images\\pdf_page062_q019.png"
+        "image": "images\\pdf_page062_q019.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2868,7 +2886,8 @@
         "images": [
             "images\\pdf_page063_q020.png"
         ],
-        "image": "images\\pdf_page063_q020.png"
+        "image": "images\\pdf_page063_q020.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2879,7 +2898,8 @@
         "images": [
             "images\\pdf_page063_q021.png"
         ],
-        "image": "images\\pdf_page063_q021.png"
+        "image": "images\\pdf_page063_q021.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2890,7 +2910,8 @@
         "images": [
             "images\\pdf_page063_q022.png"
         ],
-        "image": "images\\pdf_page063_q022.png"
+        "image": "images\\pdf_page063_q022.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2901,7 +2922,8 @@
         "images": [
             "images\\pdf_page064_q023.png"
         ],
-        "image": "images\\pdf_page064_q023.png"
+        "image": "images\\pdf_page064_q023.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2912,7 +2934,8 @@
         "images": [
             "images\\pdf_page064_q024.png"
         ],
-        "image": "images\\pdf_page064_q024.png"
+        "image": "images\\pdf_page064_q024.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2923,7 +2946,8 @@
         "images": [
             "images\\pdf_page064_q025.png"
         ],
-        "image": "images\\pdf_page064_q025.png"
+        "image": "images\\pdf_page064_q025.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2934,7 +2958,8 @@
         "images": [
             "images\\pdf_page065_q026.png"
         ],
-        "image": "images\\pdf_page065_q026.png"
+        "image": "images\\pdf_page065_q026.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2945,7 +2970,8 @@
         "images": [
             "images\\pdf_page065_q027.png"
         ],
-        "image": "images\\pdf_page065_q027.png"
+        "image": "images\\pdf_page065_q027.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2956,7 +2982,8 @@
         "images": [
             "images\\pdf_page065_q028.png"
         ],
-        "image": "images\\pdf_page065_q028.png"
+        "image": "images\\pdf_page065_q028.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2967,7 +2994,8 @@
         "images": [
             "images\\pdf_page066_q029.png"
         ],
-        "image": "images\\pdf_page066_q029.png"
+        "image": "images\\pdf_page066_q029.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2978,7 +3006,8 @@
         "images": [
             "images\\pdf_page066_q030.png"
         ],
-        "image": "images\\pdf_page066_q030.png"
+        "image": "images\\pdf_page066_q030.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -2989,7 +3018,8 @@
         "images": [
             "images\\pdf_page067_q001.png"
         ],
-        "image": "images\\pdf_page067_q001.png"
+        "image": "images\\pdf_page067_q001.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3000,7 +3030,8 @@
         "images": [
             "images\\pdf_page067_q002.png"
         ],
-        "image": "images\\pdf_page067_q002.png"
+        "image": "images\\pdf_page067_q002.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3011,23 +3042,20 @@
         "images": [
             "images\\pdf_page067_q003.png"
         ],
-        "image": "images\\pdf_page067_q003.png"
+        "image": "images\\pdf_page067_q003.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 68,
         "question_no": 4,
         "question_text": "4.（24 联考事业）把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，\n分类正确的一项是：",
-        "options": [
-            "A. ①④⑤，②③⑥",
-            "B. ①②⑤，③④⑥",
-            "C. ①②③，④⑤⑥",
-            "D. ①③④，②⑤⑥"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page068_q004.png"
         ],
-        "image": "images\\pdf_page068_q004.png"
+        "image": "images\\pdf_page068_q004.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3038,23 +3066,20 @@
         "images": [
             "images\\pdf_page068_q005.png"
         ],
-        "image": "images\\pdf_page068_q005.png"
+        "image": "images\\pdf_page068_q005.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 68,
         "question_no": 6,
         "question_text": "6.（24 联考事业）把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，\n分类正确的一项是。",
-        "options": [
-            "A. ①③⑤，②④⑥",
-            "B. ①②④，③⑤⑥",
-            "C. ①④⑥，②③⑤",
-            "D. ①②⑥，③④⑤"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page068_q006.png"
         ],
-        "image": "images\\pdf_page068_q006.png"
+        "image": "images\\pdf_page068_q006.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3065,7 +3090,8 @@
         "images": [
             "images\\pdf_page069_q007.png"
         ],
-        "image": "images\\pdf_page069_q007.png"
+        "image": "images\\pdf_page069_q007.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3076,7 +3102,8 @@
         "images": [
             "images\\pdf_page069_q008.png"
         ],
-        "image": "images\\pdf_page069_q008.png"
+        "image": "images\\pdf_page069_q008.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3087,7 +3114,8 @@
         "images": [
             "images\\pdf_page069_q009.png"
         ],
-        "image": "images\\pdf_page069_q009.png"
+        "image": "images\\pdf_page069_q009.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3098,7 +3126,8 @@
         "images": [
             "images\\pdf_page070_q010.png"
         ],
-        "image": "images\\pdf_page070_q010.png"
+        "image": "images\\pdf_page070_q010.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3109,7 +3138,8 @@
         "images": [
             "images\\pdf_page070_q011.png"
         ],
-        "image": "images\\pdf_page070_q011.png"
+        "image": "images\\pdf_page070_q011.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3120,23 +3150,20 @@
         "images": [
             "images\\pdf_page070_q012.png"
         ],
-        "image": "images\\pdf_page070_q012.png"
+        "image": "images\\pdf_page070_q012.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 71,
         "question_no": 13,
         "question_text": "13.（24 联考事业）把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，\n分类正确的一项是。",
-        "options": [
-            "A. ①②⑥；③④⑤",
-            "B. ①③⑤；②④⑥",
-            "C. ①④⑤；②③⑥",
-            "D. ①⑤⑥；②③④"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page071_q013.png"
         ],
-        "image": "images\\pdf_page071_q013.png"
+        "image": "images\\pdf_page071_q013.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3147,7 +3174,8 @@
         "images": [
             "images\\pdf_page071_q014.png"
         ],
-        "image": "images\\pdf_page071_q014.png"
+        "image": "images\\pdf_page071_q014.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3158,23 +3186,20 @@
         "images": [
             "images\\pdf_page071_q015.png"
         ],
-        "image": "images\\pdf_page071_q015.png"
+        "image": "images\\pdf_page071_q015.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 72,
         "question_no": 16,
         "question_text": "16.（24 联考事业）把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，\n分类正确的一项是。",
-        "options": [
-            "A. ①③④，②⑤⑥",
-            "B. ①③⑤，②④⑥",
-            "C. ①②⑥，③④⑤",
-            "D. ①④⑥，②③⑤"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page072_q016.png"
         ],
-        "image": "images\\pdf_page072_q016.png"
+        "image": "images\\pdf_page072_q016.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3185,7 +3210,8 @@
         "images": [
             "images\\pdf_page072_q017.png"
         ],
-        "image": "images\\pdf_page072_q017.png"
+        "image": "images\\pdf_page072_q017.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3196,7 +3222,8 @@
         "images": [
             "images\\pdf_page072_q018.png"
         ],
-        "image": "images\\pdf_page072_q018.png"
+        "image": "images\\pdf_page072_q018.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3207,7 +3234,8 @@
         "images": [
             "images\\pdf_page073_q019.png"
         ],
-        "image": "images\\pdf_page073_q019.png"
+        "image": "images\\pdf_page073_q019.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3218,7 +3246,8 @@
         "images": [
             "images\\pdf_page073_q020.png"
         ],
-        "image": "images\\pdf_page073_q020.png"
+        "image": "images\\pdf_page073_q020.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3229,7 +3258,8 @@
         "images": [
             "images\\pdf_page073_q021.png"
         ],
-        "image": "images\\pdf_page073_q021.png"
+        "image": "images\\pdf_page073_q021.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3240,7 +3270,8 @@
         "images": [
             "images\\pdf_page074_q022.png"
         ],
-        "image": "images\\pdf_page074_q022.png"
+        "image": "images\\pdf_page074_q022.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3251,7 +3282,8 @@
         "images": [
             "images\\pdf_page074_q023.png"
         ],
-        "image": "images\\pdf_page074_q023.png"
+        "image": "images\\pdf_page074_q023.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3262,7 +3294,8 @@
         "images": [
             "images\\pdf_page074_q024.png"
         ],
-        "image": "images\\pdf_page074_q024.png"
+        "image": "images\\pdf_page074_q024.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3273,7 +3306,8 @@
         "images": [
             "images\\pdf_page074_q025.png"
         ],
-        "image": "images\\pdf_page074_q025.png"
+        "image": "images\\pdf_page074_q025.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3284,7 +3318,8 @@
         "images": [
             "images\\pdf_page075_q026.png"
         ],
-        "image": "images\\pdf_page075_q026.png"
+        "image": "images\\pdf_page075_q026.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3295,7 +3330,8 @@
         "images": [
             "images\\pdf_page075_q027.png"
         ],
-        "image": "images\\pdf_page075_q027.png"
+        "image": "images\\pdf_page075_q027.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3306,7 +3342,8 @@
         "images": [
             "images\\pdf_page075_q028.png"
         ],
-        "image": "images\\pdf_page075_q028.png"
+        "image": "images\\pdf_page075_q028.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3317,7 +3354,8 @@
         "images": [
             "images\\pdf_page076_q029.png"
         ],
-        "image": "images\\pdf_page076_q029.png"
+        "image": "images\\pdf_page076_q029.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3328,23 +3366,20 @@
         "images": [
             "images\\pdf_page076_q030.png"
         ],
-        "image": "images\\pdf_page076_q030.png"
+        "image": "images\\pdf_page076_q030.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 77,
         "question_no": 1,
         "question_text": "1.（25 天津事业）把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，\n分类正确的一项是。",
-        "options": [
-            "A. ①④⑥，②③⑤",
-            "B. ①③④，②⑤⑥",
-            "C. ①②⑤，③④⑥",
-            "D. ①③⑤，②④⑥"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page077_q001.png"
         ],
-        "image": "images\\pdf_page077_q001.png"
+        "image": "images\\pdf_page077_q001.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3355,23 +3390,20 @@
         "images": [
             "images\\pdf_page077_q002.png"
         ],
-        "image": "images\\pdf_page077_q002.png"
+        "image": "images\\pdf_page077_q002.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 78,
         "question_no": 3,
         "question_text": "3.（23 浙江选调）把下面的六个图形分为两类，使每一类都有各自的共同特征或规律，分\n类正确的一项是：",
-        "options": [
-            "A. ①②③，④⑤⑥",
-            "B. ①③⑤，②④⑥",
-            "C. ①②⑥，③④⑤",
-            "D. ①③⑥，②④⑤"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page078_q003.png"
         ],
-        "image": "images\\pdf_page078_q003.png"
+        "image": "images\\pdf_page078_q003.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3382,7 +3414,8 @@
         "images": [
             "images\\pdf_page078_q004.png"
         ],
-        "image": "images\\pdf_page078_q004.png"
+        "image": "images\\pdf_page078_q004.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3393,7 +3426,8 @@
         "images": [
             "images\\pdf_page078_q005.png"
         ],
-        "image": "images\\pdf_page078_q005.png"
+        "image": "images\\pdf_page078_q005.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3404,7 +3438,8 @@
         "images": [
             "images\\pdf_page079_q006.png"
         ],
-        "image": "images\\pdf_page079_q006.png"
+        "image": "images\\pdf_page079_q006.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3415,7 +3450,8 @@
         "images": [
             "images\\pdf_page079_q007.png"
         ],
-        "image": "images\\pdf_page079_q007.png"
+        "image": "images\\pdf_page079_q007.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3426,7 +3462,8 @@
         "images": [
             "images\\pdf_page079_q008.png"
         ],
-        "image": "images\\pdf_page079_q008.png"
+        "image": "images\\pdf_page079_q008.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3437,7 +3474,8 @@
         "images": [
             "images\\pdf_page079_q009.png"
         ],
-        "image": "images\\pdf_page079_q009.png"
+        "image": "images\\pdf_page079_q009.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3448,7 +3486,8 @@
         "images": [
             "images\\pdf_page080_q010.png"
         ],
-        "image": "images\\pdf_page080_q010.png"
+        "image": "images\\pdf_page080_q010.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3459,7 +3498,8 @@
         "images": [
             "images\\pdf_page080_q011.png"
         ],
-        "image": "images\\pdf_page080_q011.png"
+        "image": "images\\pdf_page080_q011.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3470,23 +3510,20 @@
         "images": [
             "images\\pdf_page080_q012.png"
         ],
-        "image": "images\\pdf_page080_q012.png"
+        "image": "images\\pdf_page080_q012.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 81,
         "question_no": 13,
         "question_text": "13.（23 四川事业）把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律。",
-        "options": [
-            "A. ①②③，④⑤⑥",
-            "B. ①②⑥，③④⑤",
-            "C. ①③⑥，②④⑤",
-            "D. ①④⑥，②③⑤"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page081_q013.png"
         ],
-        "image": "images\\pdf_page081_q013.png"
+        "image": "images\\pdf_page081_q013.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3497,7 +3534,8 @@
         "images": [
             "images\\pdf_page081_q014.png"
         ],
-        "image": "images\\pdf_page081_q014.png"
+        "image": "images\\pdf_page081_q014.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3508,7 +3546,8 @@
         "images": [
             "images\\pdf_page081_q015.png"
         ],
-        "image": "images\\pdf_page081_q015.png"
+        "image": "images\\pdf_page081_q015.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3519,7 +3558,8 @@
         "images": [
             "images\\pdf_page081_q016.png"
         ],
-        "image": "images\\pdf_page081_q016.png"
+        "image": "images\\pdf_page081_q016.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3530,7 +3570,8 @@
         "images": [
             "images\\pdf_page082_q017.png"
         ],
-        "image": "images\\pdf_page082_q017.png"
+        "image": "images\\pdf_page082_q017.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3541,7 +3582,8 @@
         "images": [
             "images\\pdf_page082_q018.png"
         ],
-        "image": "images\\pdf_page082_q018.png"
+        "image": "images\\pdf_page082_q018.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3552,23 +3594,20 @@
         "images": [
             "images\\pdf_page082_q019.png"
         ],
-        "image": "images\\pdf_page082_q019.png"
+        "image": "images\\pdf_page082_q019.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 82,
         "question_no": 20,
         "question_text": "20.（25 国考）把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，分\n类正确的一项是：",
-        "options": [
-            "A. ①②⑥，③④⑤",
-            "B. ①③⑥，②④⑤",
-            "C. ①②③，④⑤⑥",
-            "D. ①②⑤，③④⑥"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page082_q020.png"
         ],
-        "image": "images\\pdf_page082_q020.png"
+        "image": "images\\pdf_page082_q020.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3579,7 +3618,8 @@
         "images": [
             "images\\pdf_page083_q021.png"
         ],
-        "image": "images\\pdf_page083_q021.png"
+        "image": "images\\pdf_page083_q021.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3590,7 +3630,8 @@
         "images": [
             "images\\pdf_page083_q022.png"
         ],
-        "image": "images\\pdf_page083_q022.png"
+        "image": "images\\pdf_page083_q022.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3601,7 +3642,8 @@
         "images": [
             "images\\pdf_page083_q023.png"
         ],
-        "image": "images\\pdf_page083_q023.png"
+        "image": "images\\pdf_page083_q023.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3612,23 +3654,20 @@
         "images": [
             "images\\pdf_page084_q024.png"
         ],
-        "image": "images\\pdf_page084_q024.png"
+        "image": "images\\pdf_page084_q024.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 84,
         "question_no": 25,
         "question_text": "25.（24 联考事业）把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，\n分类正确的一项是。",
-        "options": [
-            "A. ①②⑥，③④⑤",
-            "B. ①③④，②⑤⑥",
-            "C. ①③⑤，②④⑥",
-            "D. ①④⑥，②③⑤\n第六套（特色刷题）"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page084_q025.png"
         ],
-        "image": "images\\pdf_page084_q025.png"
+        "image": "images\\pdf_page084_q025.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3639,7 +3678,8 @@
         "images": [
             "images\\pdf_page084_q026.png"
         ],
-        "image": "images\\pdf_page084_q026.png"
+        "image": "images\\pdf_page084_q026.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3650,39 +3690,32 @@
         "images": [
             "images\\pdf_page085_q027.png"
         ],
-        "image": "images\\pdf_page085_q027.png"
+        "image": "images\\pdf_page085_q027.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 85,
         "question_no": 28,
         "question_text": "28.（23 辽宁）把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，分\n类正确的一项是：",
-        "options": [
-            "A. ①②⑥，③④⑤",
-            "B. ①③④，②⑤⑥",
-            "C. ①③⑥，②④⑤",
-            "D. ①④⑤，②③⑥"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page085_q028.png"
         ],
-        "image": "images\\pdf_page085_q028.png"
+        "image": "images\\pdf_page085_q028.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 85,
         "question_no": 29,
         "question_text": "29.（23 四川）从所给四个选项中，选择最合适的一个填入问号处，使之呈现一定的规律性：",
-        "options": [
-            "A. 254",
-            "B. 235",
-            "C. 432",
-            "D. 215"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page085_q029.png"
         ],
-        "image": "images\\pdf_page085_q029.png"
+        "image": "images\\pdf_page085_q029.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3693,7 +3726,8 @@
         "images": [
             "images\\pdf_page086_q030.png"
         ],
-        "image": "images\\pdf_page086_q030.png"
+        "image": "images\\pdf_page086_q030.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -3706,17 +3740,7 @@
             "C. 只有暴雨不再继续，现在的交通状况才能改善",
             "D. 只要现在的交通状况改善了，可得知暴雨不再继续"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 89,
-        "question_no": 2,
-        "question_text": "2.（2020 上海）人因自然而生，人与自然是一种共生关系，对自然的伤害最终会伤及人类\n自身。因此，只有尊重自然规律，才能有效防止在开发利用自然上走弯路。\n根据以上陈述，可以得出下列（\n）项。",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -3729,8 +3753,7 @@
             "C. 如果坚持稳中求进、积极稳妥，优先对群众需求迫切、城市安全和社会治理隐患多的城\n中村进行改造，就能够在超大特大城市积极稳步实施城中村改造",
             "D. 如果不坚持稳中求进、积极稳妥，优先对群众需求迫切、城市安全和社会治理隐患多的\n城中村进行改造，就不能在超大特大城市积极稳步实施城中村改造"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -3743,8 +3766,7 @@
             "C. 如果不大力促进科技治理体系与治理能力现代化，就不能充分发挥科技创新对经济社会\n发展的促进作用",
             "D. 除非充分发挥科技创新对经济社会发展的促进作用，否则不能大力促进科技治理体系与\n治理能力的现代化"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -3757,8 +3779,7 @@
             "C. ②③④",
             "D. ①②③④"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -3771,20 +3792,7 @@
             "C. 只有（3）",
             "D. 只有（1）和（3）"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 91,
-        "question_no": 7,
-        "question_text": "7.（2023 联考）土地荒漠化是人为因素和自然因素综合作用的结果，想要在土地退化的地\n区恢复人与自然和谐共生的状态，必须提高土地荒漠化防治的科学性。一方面，把握积极作为\n和有所不为的平衡，即一手抓人工治理，一手抓自然修复；另一方面，提高防治精细化水平。\n如果同时做到上述两个方面，土地荒漠化防治的科学性自然得到了提高。\n由此可推出：",
-        "options": [
-            "A. 只有在土地退化的地区恢复人与自然和谐共生的状态，才能提高土地荒漠化防治的科\n学性",
-            "B. 如果土地荒漠化防治的科学性得到了提高，则说明在土地退化的地区恢复了人与自然和\n谐共生的状态"
-        ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -3797,8 +3805,7 @@
             "C. 如果农民的利益无法得到真正的保护，那么宅基地的产权界定不清",
             "D. 宅基地的价值就在于保护农民的利益"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -3811,8 +3818,7 @@
             "C. 如果某人不能为道德信仰的生成提供内驱力，说明他没有形成人所特有的道德需要",
             "D. 如果某人没有获得社会与他人的道德认可，但体验到了做人的尊严与幸福，则他拥有道\n德的属性"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -3825,8 +3831,7 @@
             "C. 开通信用卡，未必可以随便使用体育设备",
             "D. 如果可以随便使用体育设备，那么一定开通了信用卡\n必然性推理·母题训练：朴素逻辑\n识别：题干整体为日常生活信息，不考查公式\n作答情况复盘\n情况统计\n答对题目共计\n努力一下就能对，题目统计\n暴露问题\n（一）第一组"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -3839,8 +3844,7 @@
             "C. 乙和丁是好友",
             "D. 乙不可能是第一名"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -3853,8 +3857,7 @@
             "C. 武侠片和战争片",
             "D. 武侠片和警匪片"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -3867,17 +3870,7 @@
             "C. 文脉相承组坐在第六排",
             "D. 墨韵心语组坐在第二排"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 94,
-        "question_no": 4,
-        "question_text": "4.（2022 北京）某校辩论队的小赵、小钱、小孙和小李分别是哲学、中文、历史和英语专\n业的，他们也都爱好下围棋。还知道如下情况：\n（1）小孙和历史专业的下过围棋，并且各有输赢；\n（2）哲学专业的只和中文专业的下过围棋，而且从没赢过；",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -3890,8 +3883,7 @@
             "C. 乙会演奏古筝",
             "D. 甲和丁会演奏的乐器完全不同"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -3904,8 +3896,7 @@
             "C. 金融",
             "D. 外语"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -3918,8 +3909,7 @@
             "C. 哲学教授来自广西",
             "D. 王教授住在赵教授隔壁"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -3932,65 +3922,43 @@
             "C. 丁考上了财经大学",
             "D. 乙考上了农业大学"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 96,
-        "question_no": 9,
-        "question_text": "9.（2025 江苏）在环太湖自行车比赛中，冲刺阶段排在前四位的是甲、乙、丙、丁四名选\n手（如图，圆圈表示选手），他们来自江苏、上海、浙江和安徽，所骑自行车颜色是蓝色、灰\n色、白色和黄色。\n（1）江苏选手在选手丙的东南面；\n（2）上海选手在赛道的东部位置，他所骑自行车是蓝色的；\n（3）骑灰色自行车的选手不是排在第四位；\n（4）选手丁排在第三位，选手乙来自浙江；\n（5）安徽选手排在骑黄色自行车的选手之前，排在选手甲之后。",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
         "page": 97,
         "question_no": 10,
         "question_text": "10.（2025 江苏）在环太湖自行车比赛中，冲刺阶段排在前四位的是甲、乙、丙、丁四名选\n手（如图，圆圈表示选手），他们来自江苏、上海、浙江和安徽，所骑自行车颜色是蓝色、灰\n色、白色和黄色。\n（1）江苏选手在选手丙的东南面；\n（2）上海选手在赛道的东部位置，他所骑自行车是蓝色的；\n（3）骑灰色自行车的选手不是排在第四位；\n（4）选手丁排在第三位，选手乙来自浙江；\n（5）安徽选手排在骑黄色自行车的选手之前，排在选手甲之后。\n如果丙所骑自行车是白色，则可以推出以下哪项？",
-        "options": [
-            "A. 选手甲所骑自行车不是蓝色的",
-            "B. 选手乙所骑自行车是灰色的",
-            "C. 安徽选手所骑自行车是黄色的",
-            "D. 江苏选手所骑自行车是灰色的"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page097_q010.png"
         ],
-        "image": "images\\pdf_page097_q010.png"
+        "image": "images\\pdf_page097_q010.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 98,
         "question_no": 11,
         "question_text": "11.（2024 辽宁事业单位）以下是一个4×4 的图形，共有16 个小方格，每个小方格中均可\n填入一个字，要求图形的每行、每列均填入“后”“起”“之”“秀”4 个字，不能重复，也\n不能遗漏。\n根据以上信息，依次填入图形中①②③④处的4 个字正确的是：",
-        "options": [
-            "A. 起，后，起，秀",
-            "B. 起，之，之，秀",
-            "C. 后，之，之，秀",
-            "D. 后，后，之，秀"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page098_q011.png"
         ],
-        "image": "images\\pdf_page098_q011.png"
+        "image": "images\\pdf_page098_q011.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 98,
         "question_no": 12,
         "question_text": "12.（2024 联考）将校园里一块空地划分成4 行4 列共计16 个小格再将其整理成如下图的\n4 个田字格，每个小格中分别摆放百日草、鸾尾花、美人蕉和波斯菊四种花卉中的一种。要求：\n（1）每一行和每一列都要用到四种花卉；\n（2）每个田字格中也都要用到四种花卉；\n（3）图中花卉的位置不能移动。\n则图中问号处摆放的花卉应当是：",
-        "options": [
-            "A. 百日草",
-            "B. 鸾尾花",
-            "C. 美人蕉",
-            "D. 波斯菊"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page098_q012.png"
         ],
-        "image": "images\\pdf_page098_q012.png"
+        "image": "images\\pdf_page098_q012.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -4003,8 +3971,7 @@
             "C. 小孙",
             "D. 小李"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4017,17 +3984,7 @@
             "C. 丙是组长",
             "D. 丁是组长"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 99,
-        "question_no": 15,
-        "question_text": "15.（2022 江苏）某高校选派甲、乙、丙、丁4 位专家组成乡村振兴调研小组，担任组长的\n专家为男性、党员、教授。已知这4 位专家中：\n（1）每位专家都至少具有组长的一个特征；\n（2）有党员3 人，男性2 人，教授1 人；\n（3）甲和乙性别相同；\n（4）乙是党员当且仅当丙是党员；",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4040,8 +3997,7 @@
             "C. 小周",
             "D. 小李"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4054,19 +4010,7 @@
             "C. 最少可能是4 人，最多可能是11 人",
             "D. 最少可能是5 人，最多可能是8 人"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 100,
-        "question_no": 18,
-        "question_text": "18.（2021 广东事业单位）某餐厅包厢在举办同学聚会。该包厢中，一个是广东人，两个是\n南方人，一个是河北人。2 人只做服装生意，3 人只做机电生意。\n假设以上陈述涉及了包厢中的所有人，则下列说法正确的是：",
-        "options": [
-            "A. 该包厢中最少可能是3 人，最多可能是8 人"
-        ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4079,8 +4023,7 @@
             "C. 政治面貌为中共党员的女性员工多于政治面貌为群众的男性员工",
             "D. 政治面貌为群众的男性员工多于政治面貌为中共党员的男性员工"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4093,20 +4036,7 @@
             "C.（2）（3）",
             "D. 一个都没有"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 101,
-        "question_no": 21,
-        "question_text": "21.（2022 全国事业单位）在研究生小刘的书架上放着15 本图书，除从图书馆借阅的9 本\n之外，其他均系自购。其中包括中文图书8 本，英文原版书7 本。\n若其中从图书馆借阅的中文图书至多7 本，则可以得出以下哪项？",
-        "options": [
-            "A. 自购的中文图书至少2 本",
-            "B. 自购的英文原版本至少1 本"
-        ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4119,8 +4049,7 @@
             "C. 18 人中来自福建的有5 人",
             "D. 18 人中来自安徽的有6 人"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4133,20 +4062,7 @@
             "C. 小乔这个冬天没有去哈尔滨",
             "D. 小乔这个冬天去圣·索菲亚大教堂"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 103,
-        "question_no": 2,
-        "question_text": "2.（2024 四川事业单位）只要救援队伍及时到达并且救援措施得当，这片森林的火灾就不\n会蔓延至整个区域，但目前这片森林的火灾已经蔓延至整个区域。\n若上述为真，则下列一定为真的是：",
-        "options": [
-            "A. 救援队伍没有及时到达，但采取的救援措施得当",
-            "B. 救援措施没有得当实施，但救援队伍准时到了"
-        ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4159,8 +4075,7 @@
             "C. 古代帝王是否为圣贤明君并没有唯一标准",
             "D. 明朝本可以维持统治上千年"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4173,8 +4088,7 @@
             "C. 潘和葛都参加了谢某的生日派对",
             "D. 苏和葛都参加了谢某的生日派对"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4187,8 +4101,7 @@
             "C. 不拍摄戊，但拍摄己",
             "D. 丁和己都要拍摄"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4201,17 +4114,7 @@
             "C. 郑毅、丁晓、吴芳",
             "D. 刘佳、丁晓、吴芳"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 105,
-        "question_no": 7,
-        "question_text": "7.（2021 安徽事业单位）在中国共产党成立100 周年之际，某中学欲举办青春心向党奋斗\n新征程的主题晚会。负责晚会筹办的教师遵循以下原则：如果有歌舞表演，那么也要有传统乐\n器表演。如果没有诗歌朗诵表演，那么必须有魔术表演。水彩画表演和沙画表演不能都有。如\n果没有歌舞表演而有诗歌朗诵表演，则需要有水彩画表演。\n假定晚会中有沙画表演，下列哪项一定是真的？",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4224,8 +4127,7 @@
             "C. 企鹅不会飞，但所有的鸟会飞",
             "D. 企鹅不会飞，并且企鹅不是鸟"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4238,17 +4140,7 @@
             "C. 小赵不是副教授",
             "D. 小李是教授"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 106,
-        "question_no": 10,
-        "question_text": "10.（2024 浙江）市美术馆近期举办“小读者”系列活动，活动包含若干项目，报名情况\n如下：\n（1）小读者在艺术阅读和版画实践课中至少参加了一个；\n（2）小读者如果参加了艺术阅读，则没有参加书法小课堂；\n（3）小苏参加了书法小课堂；\n美术馆馆长知道上述情况后断定，小苏也参加了手工剪纸活动。",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4261,17 +4153,7 @@
             "C. 选择舞剧演出就要选择音乐节",
             "D. 没有选择舞剧演出就要选择话剧"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 107,
-        "question_no": 12,
-        "question_text": "12.（2024 浙江）张、王、李、赵、钱、孙6 人是某单位的优秀员工，在全面深化改革方面\n取得了很大的成就，现有甲、乙、丙、丁四种奖项可以申报，每名员工只能申报一种奖项，且\n每种奖项都有1 至2 名员工申报，已知以下情况：\n（1）申报乙奖的员工比甲奖的多；\n（2）申报丁奖的员工比丙奖的多；\n（3）若李、赵中至少有1 名申报甲奖，则王申报丁奖；\n（4）若张、李、赵中至少有1 名申报乙奖，则只有钱申报丁奖；\n（5）孙申报丙奖。",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4284,8 +4166,7 @@
             "C. 小吴、小邓安排在北苑小区",
             "D. 小邓、小丁安排在北苑小区"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4298,17 +4179,7 @@
             "C. 小宝和小龙选择威海",
             "D. 小宝和小曼选择威海"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 108,
-        "question_no": 15,
-        "question_text": "15.（2023 北京）小刘是某大学计算机科学专业的大四学生。\n小张说：如果小刘喜欢离散数学，那么他会报考计算机科学专业的研究生。\n小王说：如果小刘不喜欢离散数学，那么他会成为算法程序员。",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4321,8 +4192,7 @@
             "C. 报考烹饪专业",
             "D. 不成为美食家"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4335,17 +4205,7 @@
             "C. 丙会去，而甲不会去",
             "D. 丙会去，而乙不会去"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 109,
-        "question_no": 18,
-        "question_text": "18.（2022 四川事业单位）小甲过生日，准备叫上小乙、小丙、小丁一起去户外烤肉，他们\n买了鸡腿、鱿鱼、牛肉三种不同的食物，并存在如下推测：\n①如果小丙买鸡腿，那么小甲买牛肉；",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4358,8 +4218,7 @@
             "C. 赵和周",
             "D. 吴和孙"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4372,8 +4231,7 @@
             "C. 丙、丁",
             "D. 丁、戊"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4386,8 +4244,7 @@
             "C. 冯明参加模拟劳动争议仲裁",
             "D. 朱丽参加模拟民事诉讼"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4400,17 +4257,7 @@
             "C. M、Q、R 均正确",
             "D. M、N、R 均正确"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 111,
-        "question_no": 23,
-        "question_text": "23.（2020 四川）张先生拟购买几种鲜花，购买意向如下：\n①玫瑰、郁金香至多买一种；\n②牡丹、玫瑰和雏菊至少买一种；\n③郁金香、雏菊、百合至少买两种；\n④如果买郁金香，则不购买牡丹。",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4423,8 +4270,7 @@
             "C. 钱、王中至少有1 人被推选",
             "D. 孙、刘中至少有1 人被推选"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4437,8 +4283,7 @@
             "C. 丁、肖中至少有1 人被评为优秀",
             "D. 丁、李中至少有1 人被评为优秀"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4451,8 +4296,7 @@
             "C. 明天不能准时下班，赵某和钱某仍一起去吃火锅",
             "D. 明天不能准时下班，钱某没有和赵某一起去吃火锅"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4465,8 +4309,7 @@
             "C. 仅Ⅲ",
             "D. 仅Ⅰ和Ⅱ"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4479,8 +4322,7 @@
             "C. 小张按时完成项目，主管奖励他10 天带薪休假以及一台笔记本电脑",
             "D. 小张没有按时完成项目，主管取消了他的项目提成"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4493,8 +4335,7 @@
             "C. 甲不是一名优秀的记者，而他有对新闻的敏感性和自己独特的见解",
             "D. 甲不是一名优秀的记者，他缺乏对新闻的敏感性和自己独特的见解"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4507,17 +4348,7 @@
             "C. 去了四姑娘山，没去塔公草原、墨石公园",
             "D. 没去四姑娘山、塔公草原，去了墨石公园"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 115,
-        "question_no": 1,
-        "question_text": "1.（2024 河南事业单位）某公司颁奖活动现场，最后特等奖获得者将在甲乙丙丁四个员工\n中产生。主持人现场让他们四人猜结果。\n甲说：“我猜是丙得奖。”",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4530,8 +4361,7 @@
             "C. 说假话的是丙，丁不会使用互联网",
             "D. 说假话的是甲，丙不会使用互联网"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4544,8 +4374,7 @@
             "C. 丙企业没有进行捐赠",
             "D. 丁企业进行了捐赠"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4558,8 +4387,7 @@
             "C. 小张学习魏碑，小李没有学习汉隶",
             "D. 小张没有学习魏碑，小李没有学习汉隶"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4572,17 +4400,7 @@
             "C. 丙说了假话，组长没有申请去分公司",
             "D. 丁说了假话，组长申请了去分公司"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 117,
-        "question_no": 6,
-        "question_text": "6.（2024 四川事业单位）张龙、赵虎、王朝、马汉四人在衙署相遇，短暂交谈后得知，他\n们几人来衙署要么提审人犯，要么开具海捕文书：\n（1）马汉来开具海捕文书；",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4595,17 +4413,7 @@
             "C. 组员甲和组员乙",
             "D. 组员乙和组员丙"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 118,
-        "question_no": 8,
-        "question_text": "8.（2024 天津事业单位）某外商企业营销部门共有20 名员工，他们在用英语交流方面有以\n下三个判断：\n（1）有些员工不能用英语进行交流。\n（2）有些员工能够用英语进行交流。\n（3）员工钱世强不能用英语进行交流。\n这三个判断只有一个判断是真的。",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4618,8 +4426,7 @@
             "C. 乙和丙都不能预测",
             "D. 丙能预测，而甲不能"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4632,8 +4439,7 @@
             "C. 如意公司的中巴客运车存在超载问题，但吉祥公司的中巴客运车不存在超载问题",
             "D. 吉祥公司的中巴客运车存在超载问题，但如意公司的中巴客运车不存在超载问题"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4646,8 +4452,7 @@
             "C. 小程",
             "D. 小董"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4660,8 +4465,7 @@
             "C. 甲获奖，乙未获奖",
             "D. 甲未获奖，乙获奖"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4674,8 +4478,7 @@
             "C. 丙获得亚军",
             "D. 丁获得季军"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4688,8 +4491,7 @@
             "C. 冠军不是南美国家",
             "D. 阿根廷会进四强"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4702,8 +4504,7 @@
             "C. 实施正面攻敌",
             "D. 不实施正面攻敌"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4716,8 +4517,7 @@
             "C. 去广州，但不去南京和深圳",
             "D. 去南京和深圳，但不去广州"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4730,8 +4530,7 @@
             "C. 该班所有人都吃早餐",
             "D. 该班有的人吃早餐"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4744,8 +4543,7 @@
             "C. 2",
             "D. 3\n（二）第二组"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4758,8 +4556,7 @@
             "C. c",
             "D. e"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4772,8 +4569,7 @@
             "C. 丙",
             "D. 戊"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4786,8 +4582,7 @@
             "C. 丙",
             "D. 丁"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4800,8 +4595,7 @@
             "C. 咖啡、牛奶、果汁、豆浆",
             "D. 牛奶、豆浆、咖啡、果汁"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4814,8 +4608,7 @@
             "C. 丙是医生，丁是工程师，乙是主播，甲是教师",
             "D. 甲是主播，乙是教师，丁是医生，丙是工程师"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4828,8 +4621,7 @@
             "C. 樊在F 区上班，胡在G 区上班，凌在E 区上班",
             "D. 樊在E 区上班，胡在F 区上班，凌在G 区上班"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4842,8 +4634,7 @@
             "C. 小李的判断完全正确，他们喝的是龙井",
             "D. 小李只说对了一半，他们喝的是碧螺春"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4856,8 +4647,7 @@
             "C. 小月的预测对了一半，老罗是冠军",
             "D. 小明的预测完全正确，老赖是冠军"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4870,8 +4660,7 @@
             "C. 牡丹",
             "D. 玫瑰、月季和牡丹之外的花种\n必然性推理·万金油"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4884,17 +4673,7 @@
             "C. 甲是安徽人，乙是浙江人，丙是江苏人",
             "D. 甲是江苏人，乙是安徽人，丙是安徽人"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 126,
-        "question_no": 2,
-        "question_text": "2.（2018 广东）单位接到一项工作任务，领导决定从张、王、李、林、沈、赵6 人中选出\n3 人组成工作小组。工作组应符合以下3 个条件：\n①张、林两人中至少需要一人入选。",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4907,8 +4686,7 @@
             "C. 六号选手的名次比四号选手的名次低",
             "D. 六号选手的名次比五号选手的名次高"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4921,17 +4699,7 @@
             "C. 患有阿尔茨海默病的病人常常会忘记刷牙，从而容易引发牙龈炎",
             "D. 阿尔茨海默病虽然是一种神经退行性疾病，但其可能是由躯体疾病引起的"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 128,
-        "question_no": 2,
-        "question_text": "2.（2024 联考）白居易在《荔枝图序》中言道：“若离本枝，一日而色变，二日而香变，\n三日而味变，四五日外，色香味尽去矣。”研究表明，荔枝难以保鲜是因为果实的呼吸强度很\n高，导致果实品质急剧下降。",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4944,17 +4712,7 @@
             "C. 该国对天然气等能源的对外依赖度超过90%，近年来能源输出国切断了对该国的能源\n输入",
             "D. 在全球极端天气影响下，该国冬季气温异常寒冷，使其对天然气等能源的需求和价格\n暴涨"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 129,
-        "question_no": 4,
-        "question_text": "4.（2025 江苏）买电影票前，去电影网站查看待映影片的评分；看电视剧前，要等到有评\n分后才决定是否观看……各种文化产品似乎都有了属于自己的分数。一个高分能为相关文化产\n品带来较高的关注度和较大的影响力，这反过来又影响文化产品的创作。然而，有专家表示，\n这样的评分很有可能影响文化产品的创新发展。",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4967,19 +4725,7 @@
             "C. 过敏性疾病与人体免疫功能有关，微生物群是形成良好免疫功能的重要因素",
             "D. 过敏性疾病的儿童患者体内白细胞介素较少"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 130,
-        "question_no": 6,
-        "question_text": "6.（2023 事业单位）某调查发现，患抑郁症的人平均每天使用手机的时间在122 分钟以上，\n而没有患抑郁症的人平均每天使用手机的时间为59 分钟。有人提出，玩手机可能会影响情绪，\n使用手机的时间越多，抑郁的可能性越大。\n以下哪项如果为真，不能支持以上结论？",
-        "options": [
-            "A. 长时间玩手机，尤其是睡前玩手机，可能会造成睡眠时间的不足，而导致情绪容易出\n问题"
-        ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -4992,8 +4738,7 @@
             "C. 有身高歧视、相貌歧视的人经过睡眠干预后，歧视程度明显降低",
             "D. 在接受睡眠干预的受试者中，有一部分人并不存在明显的偏见或歧视"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5006,8 +4751,7 @@
             "C. 降噪耳机可以一定程度降低背景噪声，让使用者能够以相对较低的音量听清耳机声音",
             "D. 除个人音频设备音量过大之外，不良生活习惯和心血管疾病等因素也会造成听力损伤"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5020,8 +4764,7 @@
             "C. 常饮茶和常饮咖啡的女性雌激素水平有较大差异",
             "D. 男性和女性体内含有的雌激素水平不同"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5034,8 +4777,7 @@
             "C. 相比没有出现症状的儿童，生病儿童患病前吃过荔枝的可能性更高",
             "D. 相比没有出现症状的儿童，生病儿童更有可能吃下生的或者腐烂的荔枝"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5048,19 +4790,7 @@
             "C. 两组被试者的人数相等，且家庭经济能力类似",
             "D. 该健脑产品已经许可生产和销售，并取得很好的市场份额"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 133,
-        "question_no": 2,
-        "question_text": "2.（2024 广东）某团队开展了一项关于预防中风的研究。研究对象分为两组，一组食用低\n钠盐（约75%的氯化钠和25%的氯化钾），一组食用普通盐（约97%的氯化钠）。在5 年的跟\n踪调查中发现，食用低钠盐的群体，其中风发病率显著低于食用普通盐的群体。因此，减少钠\n的摄入有助于预防中风。\n以下各项如果为真，最不能支持这一结论的是：",
-        "options": [
-            "A. 食用低钠盐的中风患者的死亡率远低于食用普通盐的中风患者"
-        ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5073,8 +4803,7 @@
             "C. 全球气候变暖通过改变大气环流特征来改变高温等极端天气事件的强度和发生频率",
             "D. 气象学家们认为，造成持续高温天气的原因很复杂，既有直接原因，也有间接原因"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5087,8 +4816,7 @@
             "C. 增加停车费收费标准也刚达到相邻城市的标准",
             "D. 提高燃油机动车使用成本市民会购买新能源车"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5101,8 +4829,7 @@
             "C. 人类遗骸的性别比例与当时人类社会的性别比例大致相同",
             "D. 测量某些骨骼特征如骨盆的结构通常可以直接判定性别"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5115,17 +4842,7 @@
             "C. DNA 甲基化检测方法具有生物学的稳定性，且样本需求量少，检查过程更加简单快捷",
             "D. 基因启动子区异常甲基化在多种人类疾病发生发展机制的研究中受到越来越多的重视"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 135,
-        "question_no": 7,
-        "question_text": "7.（2020 江苏）随着食品工业的发展，丙酸经常被当作一种抑制霉菌生长的添加剂使用，\n烘焙食品中都喜欢添加丙酸来进行防腐。正常情况下，人体中的微生物也会在结肠中通过发酵\n未完全消化的碳水化合物产生丙酸，这种丙酸对人体有益。但最近一项研究表明，外源性摄入\n和自体产生的丙酸作用并不一样，长期摄入外源性丙酸会导致人体出现胰岛素偏高、胰岛素抵\n抗等现象。由此，某食品专家建议，应该禁止在食品中添加丙酸。",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5138,8 +4855,7 @@
             "C. 一些传染病病原体在温度高、湿度高的环境下繁殖和传播的能力更强",
             "D. 生态失衡导致的森林减少、土地沙化、荒漠化是气温升高的重要原因"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5152,17 +4868,7 @@
             "C. 天王星也是气态巨行星，已经证实它含有大量水冰",
             "D. 卫星和它所环绕的行星是在同一时期由相同的气体和灰尘所形成的"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 136,
-        "question_no": 10,
-        "question_text": "10.（2023 湖北选调）研究人员研究了糖皮质激素在小鼠自身免疫性疾病中的作用。他们在\n正常小鼠和缺乏糖皮质激素受体的小鼠中诱导了脱发，两周后，研究人员看到了小鼠们之间的",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5175,20 +4881,7 @@
             "C. 超嗜热细菌通常在水温超过80℃的环境中生长",
             "D. 只有经过火山活动才能形成火山沉积物"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 137,
-        "question_no": 12,
-        "question_text": "12.（2020 江苏）为了研究早餐前锻炼和早餐后锻炼对健康的影响，研究人员进行了连续8\n周的实验，其中，实验组在早餐前锻炼，对照组在早餐后锻炼。结果发现，实验组锻炼过程中\n平均燃烧的脂肪量是对照组的2 倍。体检结果进一步显示，实验组胰岛素反应能力得到了改善，\n而对照组没有。研究人员由此认为，相较于早餐后锻炼，早餐前锻炼更能降低罹患心血管疾病\n的风险。\n以下哪项如果为真，最能支持上述研究人员的观点？",
-        "options": [
-            "A. 胰岛素反应能力强能有效稳定人体的血糖含量",
-            "B. 脂肪量过高是罹患心血管疾病的主要原因"
-        ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5201,8 +4894,7 @@
             "C. 通常情况下，与记忆相关的脑区神经组织的增加会带来更活跃、更天马行空的思维",
             "D. 动物实验表明，在游戏资源丰富的环境中长大的小白鼠，大脑神经突触要比匮乏环境下\n的小白鼠多出近50%"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5215,8 +4907,7 @@
             "C. 有些金伯利岩中的矿物成分在地球表面无法稳定存在",
             "D. 这类金伯利岩和原始地幔中都含有锶和钕这两种元素"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5229,8 +4920,7 @@
             "C. 该市中低收入人群中，外地人占40%",
             "D. 该市中低收入人群中，本地人占不足30%"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5243,20 +4933,7 @@
             "C. 该高科技园区低收入人群中，本科及以下学历人群占40%",
             "D. 该高科技园区低收入人群中，本科及以下学历人群占比不足30%"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 139,
-        "question_no": 17,
-        "question_text": "17.（2024 国考）在过去，药物的研发主要来自陆地生物，这与陆地生物更被熟知且容易获\n得有关。近几十年来，越来越多的药物开始从海洋生物中产生，海洋生态环境极具复杂性，因\n而海洋生物相比于陆地生物有着更为广泛的多样性。有人据此认为，海洋生物产业潜力巨大，\n海洋生物更有可能是未来新型抗生素，抗癌药物的来源。\n以下除哪项外，均能支持上述观点？",
-        "options": [
-            "A. 目前抗生素都来源于陆地微生物，病菌耐药性不断上升，而海洋微生物药物已经对一些\n感染性疾病提供了替代性疗法",
-            "B. 借助计算机工具，人们已经将庞大的生物基因组库和具有生物活性的化合物库进行关\n联，用以探索新药物"
-        ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5269,17 +4946,7 @@
             "C. 其他国家电子企业都在通过科技创新降低产品原材料价格上涨的影响，以求通过低价在\n竞争激烈的国际电子产品市场中脱颖而出",
             "D. 一直以来，H 国电子企业生产的产品以其卓越的技术和质量优势在国际市场上极具竞争\n力，近年来这种竞争优势在逐渐减弱"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 140,
-        "question_no": 19,
-        "question_text": "19.（2023 联考）S 国的通胀率近年来持续走高，今年1 月，该国的通胀率达到30 年以来\n的新高，有研究人员表示，高企的通胀率会影响人们的心理健康，研究发现，高企的通胀率加\n深了S 国经济不平等程度。尽管经济不平等是S 国一直以来存在的问题，但其程度将随着通胀\n率的走高而持续加深，而经济不平等程度的加深会导致患有抑郁症、焦虑症等心理疾病的人数\n增加。\n以下哪项如果为真，最能支持上述论证：",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5292,8 +4959,7 @@
             "C. 该设备尺寸仅为15 厘米×20 厘米，可以很容易地安装在建筑物的侧面",
             "D. 该设备只需要偶尔维护，在运行过程中不会受到天气状况的影响"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5306,17 +4972,7 @@
             "C. 盐湖地区的地表水与周围地下水之间存在密切的水力联系",
             "D. 有的盐湖在一年内绝大部分时间是干枯的，只有潮湿季节才有暂时性的表面卤水"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 142,
-        "question_no": 2,
-        "question_text": "2.（2025 事业单位联考）明代军事著作《武备志》对火龙出水这一武器装置进行了较为详\n细的介绍，并附有火龙出水的图画。该装置依靠多级动力系统，加大了箭矢的射程。有学者按",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5329,17 +4985,7 @@
             "C. 消费者对怀旧广告会产生品牌历史感的感知，悠久的历史可以让消费者更加信任该品牌",
             "D. 对于效能型品牌，消费者对怀旧广告的感知更偏理性，怀旧广告会促进消费者的口碑\n传播"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 143,
-        "question_no": 4,
-        "question_text": "4.（2022 北京）某研究团队用没有生命的细菌纤维素（由细菌制造并排泄出的有机化合物，\n拥有许多独特的力学性能，比如柔韧性、强度和保持形状的能力）充当打印纸，用活微藻充当\n“墨水”，通过3D 打印将活微藻沉积在细菌纤维素上，进而可以产生一种独特材料。研究人\n员称该项技术有望广泛应用于医疗和轻工业领域。",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5352,20 +4998,7 @@
             "C. 越来越多的人喜欢利用空闲的时间进入直播间购物",
             "D. 未来直播卖货从参与行业到商品品类会更加丰富"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 144,
-        "question_no": 6,
-        "question_text": "6.（2025 江苏）近年来，AI 在世界范围内掀起一波接一波的热潮，它的颠覆性应用让许多\n行业受益。然而，今年4 月发布的一份研究报告显示，近一年来，经济与企业类AI 谣言量增速\n达99. 91%。某权威调查机构称，生成虚假文章的网站数量自2023 年5 月以来激增1000%以上，\n涉及15 种语言。据此，有专家预测，如果任由这种情况发展下去，AI 输出内容的质量会呈现\n断崖式下降。\n以下哪项如果为真，最能支持上述专家的预测？",
-        "options": [
-            "A. AI 输出的内容虽然形式上非常合理，但是一旦深入分析，就会发现很多地方站不住脚",
-            "B. 缺乏批判性思维的情况下，AI 可能让人陷入认知幻觉，扭曲公众对现实和科学共识的集\n体理解"
-        ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5378,21 +5011,7 @@
             "C. 一项调查显示，有52. 9%的消费者遇到过客服沟通障碍问题，其中71. 2%是由于智能客\n服不够智能、“答非所问”引起的",
             "D. 智能客服与人工客服并非互相取代的关系，智能客服需要通过学习人工客服逐步完善，\n人机协同也能更好地回应消费者诉求"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 145,
-        "question_no": 8,
-        "question_text": "8.（2022 贵州事业单位）最近，研究人员对633 名儿童进行研究，发现儿童骨密度与身高\n呈正相关关系。研究人员又根据这些儿童日常补充维生素D 的情况，将他们分为补充组（323\n名）及未补充组（310 名）。发现那些经常补充维生素D 的儿童，身高增长比未补充维生素D\n的儿童要快。由此得出结论：“积极补充维生素D 对儿童身高增长有益。”\n以下各项如果为真，最能支持上述结论的是：",
-        "options": [
-            "A. 补充组和未补充组的维生素D 水平比较，未补充组明显低于补充组",
-            "B. 维生素D 可以降低儿童在生长发育期间出现骨软化症、佝偻症等疾病的可能性",
-            "C. 补充组和未补充组儿童骨骼指标变化对比，补充组儿童骨密度水平均高于未补充组"
-        ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5405,8 +5024,7 @@
             "C. 绿海龟终将无法正常繁殖导致其在地球上灭绝",
             "D. 温度的持续升高使绿海龟孵化的死亡率增加"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5419,8 +5037,7 @@
             "C. 考古人员在青藏高原东北部的白石崖溶洞遗址提取到丹尼索瓦人的线粒体DNA",
             "D. 丹尼索瓦人曾在亚洲广泛分布，他们曾在西伯利亚生活过，可耐受高寒环境"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5433,8 +5050,7 @@
             "C. 减少白糖摄入后，一些嗜甜者出现了睡眠障碍",
             "D. 近年来，白糖价格因为甘蔗种植面积大幅缩减而飙升"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5447,8 +5063,7 @@
             "C. 乙路是南北方向，凛冽的北风长驱直入，而甲路旁边的建筑能有效阻挡北风",
             "D. 该市有一条与甲路平行的路，杨树的数量与乙路差不多，但冬季几乎没有乌鸦"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5461,8 +5076,7 @@
             "C. 调查数据表明，大量食用烤肉的人有98％都喜欢一边喝啤酒一边吃烤肉，并且常常熬夜",
             "D. 该研究中偏好半熟烤肉的人罹患胰腺癌的比例比偏好全熟烤肉的人高约60％"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5475,17 +5089,7 @@
             "C. 茶氨酸易溶于水，能够消减咖啡碱引起的苦涩味并增强鲜味和甜味，使饮料味道更好",
             "D. 参与该研究的被试均患有症状为持续紧张不安的广泛焦虑症，且实验期间服用了抗抑郁\n药物"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 148,
-        "question_no": 5,
-        "question_text": "5.（新疆）近年来，为避免交通事故的发生，某市交通主管部门加强了交通安全宣传力度。\n统计数据表明，2008 年以前，全市交通每年死亡千人以上，从2008 年开始，每年交通事故死\n亡人数控制在1000 人以下，2008 年事故死亡人数为921 人，2009 年死亡738 人，2010 年死亡\n569 人。由此我们得出结论，只要加强交通安全的宣传力度，就能有效减少交通事故的发生。\n以下哪项如果为真，最能削弱上述结论？",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5498,8 +5102,7 @@
             "C. 社区绿地数量多有利于促进青少年的大脑发育",
             "D. 绿化程度较高社区的家庭通常更注重青少年空间工作记忆能力的培养"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5512,8 +5115,7 @@
             "C. 游隼并不是黑腹滨鹂唯一的天敌",
             "D. 杀虫剂会对黑腹滨鹂的身体机能造成伤害"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5526,8 +5128,7 @@
             "C. 由于价格的上升，更多人进入到文玩核桃种植业，希望获利",
             "D. 近两年来文玩核桃市场已经形成了一个相对固定的买家群体"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5540,17 +5141,7 @@
             "C. 每晋升一个工作等级，技能判断型人群的腰围平均会减少0. 5 厘米",
             "D. 每晋升一个工作等级，决策制定型人群的腰围平均会增大0. 28 厘米"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 150,
-        "question_no": 10,
-        "question_text": "10.（2024 联考）研究人员调查了女性晚年体重变化与健康状况的关系，发现60 岁以上仍\n保持体重稳定的女性更容易活到90～100 岁。研究显示，与体重减轻5%或更多的老年女性相比，\n体重保持稳定的老年女性健康状况更好，其长寿的可能性高出1. 2 至2 倍。与体重稳定的女性\n相比，体重至少减轻5%的女性健康状况相对较差，研究人员由此认为，老年女性体重减轻会导\n致其健康状况受损。",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5563,8 +5154,7 @@
             "C. 长期长跑会对膝盖、脚踝等造成损伤",
             "D. 就跑步而言，慢跑对健康更加有利"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5577,8 +5167,7 @@
             "C. 语文学习兴趣高的学生拥有更好的学习习惯",
             "D. 只有语文学习兴趣高的学生才乐于花更长时间学习语文"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5591,8 +5180,7 @@
             "C. 有些偏头痛患者平日情绪不稳定",
             "D. 失眠和偏头痛都仅由压力大引起"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5605,8 +5193,7 @@
             "C. 脂肪含量过少和死亡风险高都是由疾病带来的，疾病是二者的共同原因",
             "D. 低脂肪的饮食可以改善血脂的代谢、降低胆固醇、降低低密度脂蛋白的水平"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5619,8 +5206,7 @@
             "C. 该市大部分免费的运动场所常年冷清",
             "D. 能坚持运动的居民数量逐年下降"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5633,8 +5219,7 @@
             "C. 与其他动物的蛋壳相比，丛冢雉的蛋壳要薄三分之一，更易受到微生物的入侵",
             "D. 丛冢雉蛋散发一种特殊气味，会使附着在其蛋壳上的细菌数减少"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5647,20 +5232,7 @@
             "C. 邻近某市今年气温不高，但蚊子也很多",
             "D. 蚊子的繁殖与蚊子所处环境的卫生有关"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 153,
-        "question_no": 18,
-        "question_text": "18.（2022 事业单位联考）一项近期的研究发现，接触大自然经历多的人群，尤其当这些经\n历发生在孩童时期时，其更愿意保护环境。因此，有人认为：儿童对自然的体验和经历是他们\n将来萌生自然保护意识的原因。\n以下哪项如果为真，最能削弱上述观点？",
-        "options": [
-            "A. 许多户外活动较多的儿童，表示自己非常害怕蛇、蝙蝠、鳄鱼等动物",
-            "B. 那些成年后参与自然保护的群体中，许多人儿时并没有经常亲近自然"
-        ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5673,8 +5245,7 @@
             "C. 过多的作业负担和培训负担不利于孩子的健康成长",
             "D. 在“双减政策”要求下，学校会大力提升教学质量"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5687,8 +5258,7 @@
             "C. 全球每年消耗大量石油和煤炭，如果再不找到一种替代燃料，全球能源很快会消耗殆尽",
             "D. 过去20 年，已发生过数起实验室培植的转基因藻类外流事件，从未给自然环境造成严\n重后果"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5701,8 +5271,7 @@
             "C. 一些哺乳动物的母亲携带幼崽走动时，能使幼崽保持安静",
             "D. 摇动婴儿车或摇床会产生与行走类似的运动节奏"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5715,8 +5284,7 @@
             "C. 脑部DNA 的变异是使杏仁核活动增加的原因",
             "D. 有些抑郁症和焦虑症患者的脑部DNA 会发生变异"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5729,17 +5297,7 @@
             "C. 随着全球变暖，野火规模变得越来越大，它们烧毁树林，破坏土壤稳定，导致流入湖泊\n的沉积物增加",
             "D. 气候变化导致全球最炎热的地区气温更高，高温使得这些地区湖泊水库水分蒸发得更\n快，更为缺水"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 156,
-        "question_no": 4,
-        "question_text": "4.（2023 联考）某段时间内，在经历了较长时间的持续下跌后，全球范围内的原油价格出\n现了明显的反弹，但是原油价格在突破了每桶70 美元大关后，其反弹势头突然中止了。对于此",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5752,8 +5310,7 @@
             "C. 时速达120 公里时，汽车的油耗量将明显增加，考虑到油价，大多数司机还是放松油门",
             "D. 虽然时速限制放宽到120 公里，但在不少路段上，很多司机对此速度有安全之虞"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5766,8 +5323,7 @@
             "C. 当地农民养牛的积极性不高",
             "D. 当地农民没有饲养过该良种牛"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5780,8 +5336,7 @@
             "C. 大多数露营者都会邀请三五好友或者以家庭为单位出游，可以互相照应",
             "D. 绝大多数露营爱好者为了安全会选择在城市中管理严格的地方“安营扎寨”"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5794,8 +5349,7 @@
             "C. 现代社会提倡男女平等，追求个人事业的男性也应当回归家庭共担照顾子女的责任",
             "D. 数据显示，近年来我国结婚率逐年下降，所以人口出生率降低是正常现象"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5808,8 +5362,7 @@
             "C. 安全管理水平提升需要管理系统和管理机制双管齐下",
             "D. 本单位的业务运行机制和其他省份有较大差异"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5822,8 +5375,7 @@
             "C. 长租房无法享受与购房者同等的公共服务，在一二线城市难以推广",
             "D. 有数据表明，我国租赁人口约有2. 2 亿，占流动人口总数的90%左右"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5836,17 +5388,7 @@
             "C. 喜马拉雅山的冰川面积每年缩小约0. 1%到0. 6%",
             "D. 在珠峰海拔7000 米以上的冰川没有快速融化迹象"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 159,
-        "question_no": 12,
-        "question_text": "12.（2025 上海）假日期间，新能源汽车排队在高速服务区充电的场景冲上了热搜，新能源\n汽车里程焦虑问题引发人们的热议。一份针对新能源汽车消费的网络调查也显示，有85%的受\n访者表示存在里程焦虑，主要表现为担心新能源汽车续航里程不够长、充电设施不好找、充电\n补能速度慢，48%的受访者表示担心新能源汽车的电池安全问题，29%的受访者比较关注充电\n价格上涨导致的用车成本问题。上述调查表明，里程焦虑已经是新能源汽车使用者面临的最大\n问题。",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5859,17 +5401,7 @@
             "C. 太阳系其他八大行星围绕太阳运行的轨道基本都在同一个平面上",
             "D. 太阳系大行星必须有的特点之一是清理了轨道周边的其他天体"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 160,
-        "question_no": 14,
-        "question_text": "14.（2024 联考）前不久，某地烧烤突然在网上火爆出圈，线上“山呼海啸”般的流量迅速\n转化为线下高度集聚的客流，一时间，某地烧烤成为现象级“民众盛宴”。最近，网上开始出\n现一些某地烧烤“凉了”的帖子，依据有三：一是客流量下降，二是一些烧烤店开始转让门面，\n三是网络搜索热度大不如前。\n以下哪项组合如果为真，最能质疑上述帖子的观点？\n①与其说是“凉了”，不如说是回归常态。眼下，某地烧烤虽然“降温”，但相较“火”\n起来前还是热得多\n②某地烧烤的火爆吸引了众多入局者，品味和服务好的店铺依然客流不息，有些店面转让\n出局很正常",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5882,8 +5414,7 @@
             "C. 研究表明，男性的身体承受能力强于女性",
             "D. 该公司主要做研发，男性员工占员工总比例超过80%"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5896,17 +5427,7 @@
             "C. 在新能源汽车的着火事故中，乘用车的伤亡人数远远少于专用车和公交车",
             "D. 据该机构统计，新能源专用车和公交车保有量不到新能源汽车总量的10%"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 161,
-        "question_no": 17,
-        "question_text": "17.（2020 北京）“AI 合成主播”是通过提取真人主播新闻播报视频中的声音、唇形、表\n情动作等特征，运用深度学习技术联合建模训练而成。该技术能够将所输入的中英文自动生成",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5919,8 +5440,7 @@
             "C. 原子制造操控技术不成熟，其技术精致化仍面临重大挑战",
             "D. 原子制造可以使材料学家获得真正具有应用价值的新材料"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5933,8 +5453,7 @@
             "C. 不成功的人中，很多都有沟通能力这一技能",
             "D. 成功的人中，也不是都有沟通能力这一技能"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5947,8 +5466,7 @@
             "C. 水和植物都是良性生态系统的必备条件",
             "D. 喀斯特地貌有脆弱性、敏感性和易伤性"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5961,8 +5479,7 @@
             "C. 前年甲公司开始实行职工薪酬管理制度改革，极大地调动了公司员工的积极性",
             "D. 如果甲航运公司没有实行任期目标责任制，近两年的经济效益会增长更快"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5975,8 +5492,7 @@
             "C. 在小鸟数量增加以前，眼镜蛇的数量就已经开始减少了",
             "D. 尽管眼镜蛇的数量锐减，但在这片雨林中，眼镜蛇的数量仍多于小鸟"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -5989,20 +5505,7 @@
             "C. 在网络流行语的冲击下，词语意义和用法的精准解释对国人尤为重要",
             "D. 有些网络提供的字词解释不够准确，检索到的内容很容易出现错误"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 164,
-        "question_no": 2,
-        "question_text": "2.（2022 新疆兵团）中国境内发现数以百计的腕足动物化石，其外壳上附着的管状物里面\n也许藏有已知最早的管居微生物。这种形似蛤蜊的腕足动物生活在大约5. 12 亿年前。经研究，\n在周围岩层及其他化石上都没有发现管居微生物存在的痕迹，这表明这种微生物无法独自存活。\n以下哪项如果为真，最能质疑上述观点？",
-        "options": [
-            "A. 管居微生物虽在存活时抢夺宿主食物，但死后可为宿主提供养分",
-            "B. 附着了管状物的腕足动物并没有比未附着管状物的同类处境更糟"
-        ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6015,8 +5518,7 @@
             "C. 除了纹路排列，指纹的其他几项指标也是指纹识别技术的重要依据",
             "D. 指纹纹路排列发生变化有规律可循，这一规律是普遍适用的"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6029,17 +5531,7 @@
             "C. 大脑有“用进废退”的现象，青少年大脑前额叶皮层可通过不断训练而促进其成熟",
             "D. 很多中年人也经常有冲动冒险、情绪失控的行为，前额叶皮层发育完全也并不意味着就\n一定很理智"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 165,
-        "question_no": 5,
-        "question_text": "5.（2023 陕西事业单位）近年来，随着互联网和电商经济迅猛发展，外卖、快递、网约车、\n网络直播等行业规模迅速扩大，吸纳了城乡剩余劳动力等各类群体就业，目前已经发展成我国\n重要的就业形式。因此，外卖、快递、网约车、网络直播等行业成为新业态和新就业形态的主\n要代表。",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6052,8 +5544,7 @@
             "C. 珍珠粉外敷能部分隔绝空气，减缓空气对皮肤表层细胞的氧化，长期使用能延缓衰老",
             "D. 珍珠粉中的牛磺酸具有加强巨噬细胞吞噬的能力，黑色素进入表皮层之后部分会被巨噬\n细胞吞噬降解"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6066,8 +5557,7 @@
             "C. 按照目前的趋势，20 年后将有超三分之一的生态系统濒临崩溃",
             "D. 在地球的历史中，气候变暖多次导致了人类生活环境的巨大变化"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6080,8 +5570,7 @@
             "C. 早期一些海山中发现的高度特有物种其实是采样不足造成的，很多海山都有相同的生物\n来源",
             "D. 地形和海流的相互作用在某些海山顶部形成封闭环流，使栖息其上的生物幼体难以扩散"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6094,17 +5583,7 @@
             "C. 研究者曾在阿尔茨海默症患者的脑组织中，发现了牙龈卟啉单胞菌",
             "D. β-淀粉样蛋白的沉积是形成阿尔茨海默症的重要一环"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 168,
-        "question_no": 2,
-        "question_text": "2.（2025 广东）具身智能是能感知决策并与物理世界互动的人工智能系统，目前具身智能\n机器人强调“大脑”和“小脑”的协同工作，它能精准的完成细节操作，且能合理规划任务。\n因此，外科手术机器人“达芬奇”，虽具备精密操作能力，但仍不能算是具身智能机器人。",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6117,8 +5596,7 @@
             "C. 这种贫血症患者的红细胞可由直系亲属的代替",
             "D. 血红蛋白基因是导致这种贫血症的相关基因"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6131,8 +5609,7 @@
             "C. 叶肉细胞膜内外钙离子和钾离子流速越高，杂草稻的抗旱性越强",
             "D. 杂草稻与栽培稻存在基因交流，其演化与栽培稻选育品种密切相关"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6145,8 +5622,7 @@
             "C. 骨骼化石在不同地层的埋藏学特征取决于生态及气候",
             "D. 晚白垩世全球各地的紫红色岩石地层具有相同的埋藏环境"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6159,19 +5635,7 @@
             "C. 饮食时间能促进人类减肥的潜在机制还不清楚",
             "D. 昼夜节律被打乱者可能会有不同的代谢反应"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 170,
-        "question_no": 7,
-        "question_text": "7.（2024 江苏）疫苗的作用原理是通过刺激免疫系统制造保护性抗体，以抵御未来的感染，\n传统疫苗的生产需要大规模细胞培养。但当流行性疫病暴发时，资源密集型生产方式限制了疫\n苗应对疫情的及时性和有效性。因此，亟须研究人员开发独立于细胞培养的疫苗生产以应对可\n能爆发的大规模流行性疫病。\n以下哪项不是上述论证成立所必需的假设？",
-        "options": [
-            "A. 研发疫苗是人类防御流行性疫病的有效手段之一"
-        ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6184,20 +5648,7 @@
             "C. 姓氏文化不仅透露出家族的来源、迁徙历史和谱系，还包括了宗祠、名人和家训等方面\n的信息，承载着丰富的文化内涵",
             "D. 在南宋《百家姓》已经成为普及读物，历朝历代都编写了各种版本的《百家姓》，其中\n不乏名家编撰和御制的版本"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 171,
-        "question_no": 9,
-        "question_text": "9.（2024 山东）在工作和生活中，人们遇到拿不准的问题总是习惯于请教专家。人们常常\n认为，某一领域的专家对该领域了解得更多，相关知识更丰富，经验更多，因此，对该领域相\n关问题的判断比外行更准确，而专家们对自己的判断通常也非常自信。人们（包括专家自己）\n对于专家的这一信念被一些人称为“专家幻觉”。\n以下哪项如果为真，最能解释上述现象？",
-        "options": [
-            "A. 对那些与人的情感和性格涉及不多或影响不大的领域，专家预测的准确性较强",
-            "B. 当事件的可预测性低时，专家比一般人更自信，反而降低了专家的预测水平"
-        ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6210,8 +5661,7 @@
             "C. 要保护我们的内脏器官，必须合理地使用大脑，维持良好的情绪",
             "D. 冠心病、胃溃疡之类的疾病也与神经系统的“功能失常”有关系"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6224,8 +5674,7 @@
             "C. 如果实在担心重金属的问题，吃空心菜最好吃茎不吃叶",
             "D. 空心菜对水质的要求很高，如果水质不达标，空心菜根本无法存活"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6238,8 +5687,7 @@
             "C. 有些世界文学名著没有汉译本，所有世界文学名著都不是脱离现实的作品。所以，有些\n没有脱离现实的作品没有汉译本",
             "D. 有些网球运动员不是职业运动员，所有网球运动员都想获得冠军。所以，有些职业运动\n员想获得冠军"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6252,8 +5700,7 @@
             "C. 人才兴则乡村兴、人才旺则乡村旺。因此，要更好地推动乡村振兴，就要为乡村人才发\n展营造良好环境，更大程度地激发人才的活力",
             "D. 正是强大的爱国主义精神，支撑着董存瑞、黄继光、邱少云等革命先烈为我们的国家前\n赴后继。因此，革命先烈都具有爱国主义精神"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6266,8 +5713,7 @@
             "C. 宇航员的预期寿命明显高于一般人，因此太空旅行中的辐射暴露并不会危害人体",
             "D. 许多体弱多病的人都不喜欢吃蔬菜，所以想保持身体健康就必须从蔬菜中摄入足量的膳\n食纤维"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6280,8 +5726,7 @@
             "C. 每片雪花都不愿意承认自己是雪崩的罪魁祸首，但其实每片雪花都对雪崩负有责任",
             "D. 张某、陈某都是甲地人，他们两人都获得了医学博士学位，由此可见，甲地出医学人才"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6294,17 +5739,7 @@
             "C. 妈妈每天早上五点就起来给小红准备早餐，经常对吃着早餐的小红念叨，只要你好好学\n习，妈妈就是再辛苦也心甘情愿",
             "D. 爸爸在下雪天骑车给小林送衣物时不慎摔伤，看着爸爸打厚厚石膏的胳膊，小林暗想长\n大以后一定要好好孝顺爸爸"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 175,
-        "question_no": 2,
-        "question_text": "2.（2024 江苏）文字讨好症：指网络对话过程中，通过调整用词、添加语气词或特定符号\n避免聊天时带来的冷漠与疏离，让对话变得更加轻松、愉悦、舒适。\n下列属于文字讨好症的是：",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6317,8 +5752,7 @@
             "C. 甲公司最近结余一笔资金，并将这部分资金存到乙银行，由于丙公司恰巧申请借贷，乙\n银行便把这部分资金贷款给丙公司",
             "D. 小张有一笔闲置资金，看到某借贷机构正在募集资金，便把这笔钱投入该机构，该机构\n将众多“小张”的资金借贷给其他人或者企业"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6331,8 +5765,7 @@
             "C. 使用牵引技术帮助下肢骨折患者进行临时制动",
             "D. 采用红外光照射疗法缓解患者颈部的肌肉疼痛"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6345,19 +5778,7 @@
             "C. 通过拉网法收集食道癌患者的食道脱落细胞，鉴定细胞形态，明确癌变性质",
             "D. 对脑疝患者脑室穿刺，放出脑室液以降低脑压，后再次穿刺注入造影剂，诊断其颅内占\n位病变的情况"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 177,
-        "question_no": 6,
-        "question_text": "6.（2024 江苏）温情执法：指执法人员在依法查处违法行为的过程中，综合考量各种特殊\n因素，对违法者进行灵活处置以体现法治温度的执法行为。\n下列不属于温情执法的是：",
-        "options": [
-            "A. 冬天，许多菜农在路边叫卖，给城市交通卫生带来了挑战。区城管部门调研后划出28\n个覆盖全区的固定销售点，与菜农签订“摊前三包”协议，菜农卖得更安心了，城市面貌大有\n改观"
-        ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6370,8 +5791,7 @@
             "C. 某款电动汽车售价40 万元，高于同类产品，但车主每月可抵扣200 元用电费用",
             "D. 一份液化气保险每年保费365 元，相当于每天只交1 元，如遇事故最高获得1 万元理赔"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6384,8 +5804,7 @@
             "C. 原材料价格上涨引发某商品价格攀升，从而导致该商品滞销",
             "D. 消费者收入水平的提升，引发了中高端商品销量大幅增加"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6398,8 +5817,7 @@
             "C. 丙公司拨付专款让员工学习产品质量管理国际标准体系",
             "D. 丁工厂投入巨资研制出一条优化产品性能的生产线"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6412,20 +5830,7 @@
             "C. 供应商可以为链上企业提供“绿色创新”方面的资源和知识",
             "D. 供应商的绿色环保行为倒逼企业进行绿色创新行为"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 179,
-        "question_no": 11,
-        "question_text": "11.（2023 广东事业单位）诉前财产保全是指利害关系人因情况紧急，若不立即申请财产保\n全将会使其合法权益受到难以弥补的损害，起诉前向人民法院申请，由人民法院采取的一种财\n产保全措施。\n根据上述定义，下列不属于诉前财产保全的是：",
-        "options": [
-            "A. 甲与乙签订购销合同，甲给乙200 万元预付款后，发现乙有欺诈行为，无力履行合同，\n遂请求人民法院冻结200 万元预付款",
-            "B. 银行甲与公司乙签订协议，甲向乙提供5000 万元贷款，分3 期还清，第一笔到期时乙\n无力归还，甲向法院申请查封乙的财产"
-        ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6438,8 +5843,7 @@
             "C. 我这才明白，两年来，不，是二十二年来我全在瞎折腾",
             "D. 假如战争不发生，他的官还可以做下去——不，做上去"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6452,8 +5856,7 @@
             "C. 某医学生为掌握神经解剖技术大量练习，在控制手部精细操作的过程中，他意识到自己\n的兴趣在雕塑，于是下定决心转入艺术系",
             "D. 某工程师退休之后回想人生，意识到自己年轻时立下的职业理想已实现，但有些人生目\n标尚未实现，因而生发出许多感慨"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6466,8 +5869,7 @@
             "C. 上世纪50 年代美国的赛车手游戏，两名车手相对驱车而行。如果两人拒绝转向，最终\n两人都会死于车祸；如果一方转向，另一方不转，则不转向的会获胜",
             "D. 丙、丁合作课程项目，双方都不愿意承担额外的任务。但丁能力较差，负责部分质量较\n低，如果丙选择单独完成全部内容，最终项目总成绩反而能上升"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6480,8 +5882,7 @@
             "C. 小影是某网站的专栏作家，在网络上发表多篇高阅读量和点赞量的文章，不少读者将她\n的文章打印出来，作为范本交流学习",
             "D. 小芳是某企业员工，经常在微博上用图片加文字的形式表达心灵感悟，她定期收集这些\n记录，请专业人士排版设计印刷成册"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6494,17 +5895,7 @@
             "C. 黄某要求解除婚姻关系，他的妻子坚决不同意：“离婚不是一个人说了算”",
             "D. 某学院组织全体50 名教师投票推选年度优秀教师"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 182,
-        "question_no": 2,
-        "question_text": "2.（2022 联考）城市生产空间优化是指通过城市产业发展空间规模与布局的调整促进生产\n优化的过程；城市生活空间优化是指通过调整城市不同类型生活空间的分布及相对距离，在提",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6517,19 +5908,7 @@
             "C. 出售的地下酒窖附带出入通道",
             "D. 购买家电享受“三包服务”"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 183,
-        "question_no": 4,
-        "question_text": "4.（2025 天津）一级预防是指在疾病尚未发生时针对病因（或危险因素）所采取的措施，\n即“防病于未然”。一级预防包括健康促进和健康保护两方面内容，其中，健康促进是促使人\n们维护和改善他们自身健康的过程；健康保护是对有明确病因（或危险因素）或具备特异预防\n手段的疾病所采取的措施。\n根据上述定义，下列说法正确的是：",
-        "options": [
-            "A. 采用湿式作业来减少矿工中尘肺的发生率，这属于健康保护"
-        ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6542,8 +5921,7 @@
             "C. 某设区的市人大常委会就新修订法规的实施情况组织专家评估属于法律证成",
             "D. 某市公安局依据法律条文对张某散布谣言的行为处以行政拘留不涉及法律证成"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6556,8 +5934,7 @@
             "C. 政府向养老机构购买居家养老服务，为低保家庭60 周岁以上失能老人提供服务",
             "D. 商务部发布《关于推动养老服务产业发展的指导意见》，提出打造养老服务品牌"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6570,8 +5947,7 @@
             "C. 如果我面对工作中的困难没有退缩的话，今天在事业上也能取得成绩——（1）",
             "D. 如果我平时好好学习而不是只顾着玩的话，这次考试就能取得高分了——（3）"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6584,17 +5960,7 @@
             "C. 小王2015 年到市里工作，户口随即解决，今年想把乡下父母接来同住",
             "D. 黄婆婆体弱多病，她女儿是大学副教授，把黄婆婆从农村接到自己家里治病养老"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 185,
-        "question_no": 9,
-        "question_text": "9.（2023 联考）法律事件是指由法律规范规定的，不以当事人的意志为转移而引起法律关\n系形成，变更或消灭的客观事实。法律行为是指行为人所实施的，能够发生法律效力，产生一\n定法律效果的行为。有这样一种情形：王某与张某签订加工承揽合同，合同约定王某在一个月\n内为张某加工某种石料，在遇有自然灾害等不可抗力的情形下，王某可延期交付。合同签订后\n第二天，当地即发生洪涝灾害，但王某仍如期完成，并将石料交付给张某。",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6607,8 +5973,7 @@
             "C. 聊天软件和某咖啡品牌推出了“用咖说”，网友打开该聊天软件后，可以在第三方服务\n界面在线购买该咖啡品牌优惠券",
             "D. 某婴儿用品的品牌商开发了自己的线上销售app，在app 发展成熟后又引入了成人用品\n及其他品牌商"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6621,8 +5986,7 @@
             "C. 小王知道老板爱挑毛病，每次提交的总结都得仔细检查好几遍",
             "D. 小花看见妈妈冲爸爸使了个眼色后，爸爸尴尬地放下酒杯，小花偷偷地笑了"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6635,8 +5999,7 @@
             "C. 小陈认为看时政新闻有意思，而小李认为文体新闻更刺激",
             "D. 小伍觉得晚上看新闻更有感觉，小王认为早上看能早知道"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6649,17 +6012,7 @@
             "C. 李老师由于经常批改作业到深夜造成视力急剧下降",
             "D. 小刘出差过程中受到朋友邀约去打球，在抢球时不小心造成手指骨折"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 187,
-        "question_no": 14,
-        "question_text": "14.（2023 福建事业单位）海绵城市是一种形象的表述，它是借用海绵的物理特性来比喻城\n市对雨水吸附吐纳能力的管理方式，其学术术语也被称为“低影响雨水开发构建系统”。也就\n是说，城市能够像海绵一样，在适应环境变化和应对自然灾害等方面具有良好的弹性。下雨时\n吸水、蓄水、渗水、净水，干旱时将蓄存的水释放并加以利用。",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6672,20 +6025,7 @@
             "C. 新闻传播过程中，模糊信息中的一些负面细节更容易被人们关注并作进一步负面解读",
             "D. 应聘者的优缺点与职位具有同等相关性，但招聘者往往更关注应聘者的缺点"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 188,
-        "question_no": 16,
-        "question_text": "16.（2025 国考）选择或然率理论解释的是影响受众对大众传播内容选择的决定性因素。该\n理论的核心公式是：选择或然率=报偿的保证/费力的程度。其中，报偿的保证指的是传播内容\n满足选择者需要的程度，即内容对于受众的吸引力和实用性；费力的程度指的是获取传播内容\n和使用传播途径的难度。\n根据上述定义，下列属于提高选择或然率的传播行为的是：",
-        "options": [
-            "A. 视频号平台借助数据分析和个性化算法，给用户推荐符合其偏好的视频",
-            "B. 时下流行的某影视作品在播放之前被插入一段2 分钟的广告"
-        ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6698,8 +6038,7 @@
             "C. 检索时间越长，查全率和查准率必然会越高",
             "D. 若检索出的相关文献量有60 篇，检索出的文献总量有300 篇，则查准率为50%"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6712,19 +6051,7 @@
             "C. 在整数范围内的减法运算中，0 是左幺元",
             "D. 在整数范围内的除法运算中，0 是左幺元"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 189,
-        "question_no": 19,
-        "question_text": "19.（2024 四川）逻辑等值是指两个命题可以互推，即A 可以推出B，B 也可以推出A，那\n么命题A 和B 在逻辑上就是相等的。\n根据上述定义，下列选项中前后两个命题逻辑等值的是：",
-        "options": [
-            "A.“并不是只有考上大学才有出息”和“即使考上了大学也没啥出息”"
-        ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6737,8 +6064,7 @@
             "C. 摩天大厦指的是诸如上海金茂大厦、迪拜哈利法塔那样的高楼大厦",
             "D. 竹林七贤指的是魏晋时期的阮籍、嵇康、山涛、刘伶、阮咸、向秀和王戎等七位名士"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6751,38 +6077,31 @@
             "C. 所有的文字都是符号，所有的文字都是图形，所以，所有的符号都是图形",
             "D. 这个花园的花都是迎春花，迎春花都在冬、春季开放，所以，这个花园的花都在冬、春\n季开放"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
         "page": 191,
         "question_no": 22,
         "question_text": "22.（2023 联考）动机-效率定律是心理学家提出的反映动机水平与工作效率关系的定律。\n心理学家认为动机水平的强度和工作效率之间的关系不是一种正比例关系，而是形成一种倒U\n形曲线，如下图所示。\n根据上述定义，下列说法错误的是：",
-        "options": [
-            "A. 动机水平在达到一定强度的时候，工作效率最高",
-            "B. 在一定范围内，工作效率随着动机的提高而上升",
-            "C. 随着任务难度的增加，动机的最佳水平逐渐上升",
-            "D. 对学习来说，如果动机过强，会使学习效率降低"
-        ],
+        "options": [],
         "images": [
             "images\\pdf_page191_q022.png"
         ],
-        "image": "images\\pdf_page191_q022.png"
+        "image": "images\\pdf_page191_q022.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
         "page": 191,
         "question_no": 23,
-        "question_text": "23.（2022 国考）总量指标动态数列是将反映某种社会经济现象的一系列总量指标按时间先\n后顺序排列形成的数列，可分为两类：（1）时期数列：每个指标都表示社会经济现象在一定时\n期内发展过程的总量，各指标值可以相加，指标数值的大小与时期长短有直接关系；（2）时点\n数列：每个指标都表示社会经济现象在某一时点（时刻）上的数量，各指标值不能相加，指标\n数值大小和“时点间隔”长短没有直接关系，每个指标通常都是定期（间断）登记取得的。\n根据上述定义，下列属于时点数列的是：",
-        "options": [
-            "A. 2016—2020 年某市税收情况",
-            "B. 2017—2020 年某公司员工人数情况"
-        ],
+        "question_text": "23.（2022 国考）总量指标动态数列是将反映某种社会经济现象的一系列总量指标按时间先\n后顺序排列形成的数列，可分为两类：（1）时期数列：每个指标都表示社会经济现象在一定时\n期内发展过程的总量，各指标值可以相加，指标数值的大小与时期长短有直接关系；（2）时点\n数列：每个指标都表示社会经济现象在某一时点（时刻）上的数量，各指标值不能相加，指标\n数值大小和“时点间隔”长短没有直接关系，每个指标通常都是定期（间断）登记取得的。\n根据上述定义，下列属于时点数列的是：\nA. 2016—2020 年某市税收情况\nB. 2017—2020 年某公司员工人数情况",
+        "options": [],
         "images": [
             "images\\pdf_page191_q023.png"
         ],
-        "image": "images\\pdf_page191_q023.png"
+        "image": "images\\pdf_page191_q023.png",
+        "render_mode": "image_question"
     },
     {
         "source": "判断推理.pdf",
@@ -6795,8 +6114,7 @@
             "C. 用硝酸银滴定氯化物的方法检测海底沉积物的成分，以确定海底矿产资源的情况",
             "D. 用抛弃式探温仪测定海水温度，计算出海洋平均温度，分析近60 年来海洋变暖速率"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6809,8 +6127,7 @@
             "C. 在馒头制作的过程中，研究酵母菌对面粉发酵的催化反应模型",
             "D. 在铁制品表面喷涂不同种类油漆，研究铁与水、氧气的反应情况，判断防锈效果"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6823,8 +6140,7 @@
             "C. 含羞草叶茎部的叶褥含有很多水分，当叶片振动时，叶褥中的水分流向其它地方，叶片\n逐渐干瘪蜷缩到一起",
             "D. 核磁共振成像是通过使人体本身的磁场和仪器自身的磁性物质相互作用形成检测显影，\n进而查看到病变的位置"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6837,20 +6153,7 @@
             "C. 神农架景区温度大幅下降至零下3 度，迎来了入秋后的雾凇奇观",
             "D. 雨凇边降边冻，粘附在裸露物的外表而不流失，形成越来越厚的冰层"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 193,
-        "question_no": 28,
-        "question_text": "28.（2024 联考）旋造是指在同一语句中，故意将两个短语中的某些语素位置互换，使本来\n正常的词语组合变成超常组合，从而造成某种“谬误”的一种修辞方式。\n根据上述定义，下列没有使用旋造这一修辞方式的是：",
-        "options": [
-            "A. 高江急峡雷霆斗，古木苍藤日月昏",
-            "B. 酿泉为酒，泉香而酒洌"
-        ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6863,8 +6166,7 @@
             "C. 渔人甚异之",
             "D. 故人不独亲其亲，不独子其子"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6877,8 +6179,7 @@
             "C. ③①②④",
             "D. ③②④①"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6891,8 +6192,7 @@
             "C. 降低：摩擦：速度",
             "D. 气候变暖：冰层融化：环境"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6905,8 +6205,7 @@
             "C. 市场监管：执法检查：责令整改",
             "D. 问卷调查：设计量表：收集数据"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6919,8 +6218,7 @@
             "C. 抚养：扶养",
             "D. 超速：限速"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6933,8 +6231,7 @@
             "C. 偷换概念：自相矛盾：逻辑错误",
             "D. 工程设计：工程施工：工程验收"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6947,8 +6244,7 @@
             "C. 建立信任：有效沟通：促成合作",
             "D. 浸泡催芽：翻土播种：浇水追肥"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6961,8 +6257,7 @@
             "C. 无人区：可燃冰",
             "D. 地震带：火山岩"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6975,8 +6270,7 @@
             "C. 桌面：桌布：桌腿",
             "D. 教室：讲台：课桌"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -6989,8 +6283,7 @@
             "C. 小熊猫：浣熊",
             "D. 蝮蛇：蛇"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7003,8 +6296,7 @@
             "C. 牛：虎：龙",
             "D. 秦：汉：隋"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7017,8 +6309,7 @@
             "C. 救助：提供现金：发放实物",
             "D. 公司：银行贷款：股票筹资"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7031,8 +6322,7 @@
             "C. 牡丹园：芍药园：百花园",
             "D. 羊皮鞋：棉布鞋：儿童鞋"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7045,8 +6335,7 @@
             "C. 三元函数：二次函数",
             "D. 雕版印刷：非物质文化遗产"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7059,8 +6348,7 @@
             "C. 地球：亚洲：中国",
             "D. 全日制大学生：大学生：学生"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7073,8 +6361,7 @@
             "C. 字母：大写字母：小写字母",
             "D. 防晒：室内躲避：涂防晒霜"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7087,8 +6374,7 @@
             "C. 敲门砖：绊脚石",
             "D. 鸿门宴：攻心计"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7101,8 +6387,7 @@
             "C. 滑冰：冰刀鞋：滑冰场",
             "D. 斗牛：斗牛士：斗牛场"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7115,8 +6400,7 @@
             "C. 自我意识：人格：心理调节",
             "D. 绿色能源：太阳能：发电"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7129,8 +6413,7 @@
             "C. 白糖：调味",
             "D. 人参：滋补"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7143,8 +6426,7 @@
             "C. 四川：蜀绣：丝绸",
             "D. 陕西：剪纸：纸张"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7157,8 +6439,7 @@
             "C. 椰子：椰子汁",
             "D. 葡萄：葡萄干"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7171,8 +6452,7 @@
             "C. 银行：企业：理财室",
             "D. 欧盟：法国：凯旋门"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7185,8 +6465,7 @@
             "C. 杂货铺：商场：顾客",
             "D. 幼儿园：游乐园：儿童"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7199,8 +6478,7 @@
             "C. 人工智能：数字化",
             "D. 线上课程：直播性"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7213,8 +6491,7 @@
             "C. 合同：维修电器：维修工",
             "D. 菜谱：烹饪：厨师"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7227,8 +6504,7 @@
             "C. 子：儿子：菜篮子",
             "D. 羊：山羊：领头羊"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7241,8 +6517,7 @@
             "C. 勤：劳：勤劳",
             "D. 发：行：发行"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7255,8 +6530,7 @@
             "C. 须眉：男子",
             "D. 巾帼：女子"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7269,8 +6543,7 @@
             "C. 得陇：望蜀",
             "D. 格物：致知"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7283,8 +6556,7 @@
             "C. 不敢高声语：恐惊天上人",
             "D. 举头望明月：低头思故乡"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7297,8 +6569,7 @@
             "C. 除旧布新：空前绝后",
             "D. 畏首畏尾：瞻前顾后"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7311,8 +6582,7 @@
             "C. 得陇望蜀：返老还童：按部就班",
             "D. 源清流清：春华秋实：物腐虫生"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7325,8 +6595,7 @@
             "C. 写：字：好",
             "D. 督：促：严"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7339,8 +6608,7 @@
             "C. 良师：益友",
             "D. 王侯：将相"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7353,8 +6621,7 @@
             "C. 兢兢业业：刻苦奋进",
             "D. 山穷水尽：柳暗花明"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7367,8 +6634,7 @@
             "C. 浓度：溶液：溶质",
             "D. 集合：子集：元素"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7381,19 +6647,7 @@
             "C. 所有报名参加跳远比赛的职工都报名参加长跑比赛",
             "D. 所有报名参加短跑比赛的职工都没有报名参加长跑比赛"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 201,
-        "question_no": 2,
-        "question_text": "2.（2019 广西事业单位）某中学的教师都很有爱心。有些经常志愿献血的教师免费为学习\n困难学生补课，凡是资助了贫困生的教师都和困难家庭结成了帮困对子，但所有免费为学习困\n难学生补课的教师都没有和困难家庭结成帮困对子。\n根据以上前提，下列（\n）项一定为真。",
-        "options": [
-            "A. 有些经常志愿献血的教师没有资助贫困生"
-        ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7406,8 +6660,7 @@
             "C. 有的电竞专业的毕业生年龄在50 岁以上",
             "D. 所有电竞专业的毕业生都喜欢打游戏"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7420,17 +6673,7 @@
             "C. 一个人获得了法律职业资格证书，但并非是法学专业的学生",
             "D. 一个人是逻辑学专业的学生，并且获得了法律职业资格证书"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 202,
-        "question_no": 5,
-        "question_text": "5.（2018 北京）有些参加语言学暑期高级讲习班的学生获得过青年语言学奖。所有中文专\n业的三年级硕士生都参加了语言学暑期高级讲习班。所有中文专业的一年级硕士生都没有参加\n语言学暑期高级讲习班。",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7443,8 +6686,7 @@
             "C. 获得国家科技发明大奖的员工是集团发展的核心力量",
             "D. 这些博士要么获得多项发明专利，要么获得了国家科技发明大奖"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7457,17 +6699,7 @@
             "C. 该兴趣小组成员体育都很好",
             "D. 该兴趣小组成员可能体育都不好"
         ],
-        "images": [],
-        "image": null
-    },
-    {
-        "source": "判断推理.pdf",
-        "page": 203,
-        "question_no": 8,
-        "question_text": "8.（2025 上海）所有经济学专业的学生都必须修读微观经济学课程；所有修读微观经济学\n课程的学生都参加了期末考试。有些金融学专业的学生也修读了微观经济学课程。所有统计学\n专业的学生都没有修读微观经济学课程。",
-        "options": [],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7480,8 +6712,7 @@
             "C. 不是所有涉及个人信息安全问题的都可以外包",
             "D. 不是所有的通信网络维护都涉及个人信息安全问题"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7494,8 +6725,7 @@
             "C. 有些知名教授不是学文科的",
             "D. 有些知名教授是学文科的"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7508,8 +6738,7 @@
             "C. 有些德国啤酒口感好",
             "D. 所有德国啤酒口感都好"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7522,8 +6751,7 @@
             "C. 有些无规则的竞技是虚拟环境中的智力和体力的对抗",
             "D. 所有无规则的竞技都是单纯依靠运气成分获胜的"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7536,8 +6764,7 @@
             "C. 一些甲县公安局新入职的年轻职工没有参加5000 米自由泳项目",
             "D. 所有参加了5000 米自由泳项目的职工都是长期长距离游泳锻炼者"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7550,8 +6777,7 @@
             "C. 只有法律专业毕业的，才有资格从事司法工作",
             "D. 有些司法工作者是法律专业的毕业生"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7564,8 +6790,7 @@
             "C. 近年来，员工普遍比较关心自己的个人发展",
             "D. 所有首先把注意力放在员工职业生涯发展上的领导，都是管理得法的领导"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7578,8 +6803,7 @@
             "C. 粮油类",
             "D. 日用品类"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7592,8 +6816,7 @@
             "C. 日用品类、文具类、酒类、零食类、饮料类、调料类、粮油类",
             "D. 日用品类、文具类、零食类、酒类、粮油类、调料类、饮料类"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7606,8 +6829,7 @@
             "C. 4 排",
             "D. 5 排"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7620,8 +6842,7 @@
             "C. 文具类和粮油类",
             "D. 零食类和文具类"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7634,8 +6855,7 @@
             "C. 日用品类排在文具类前一排",
             "D. 酒类排在文具类前一排\n根据所给材料，回答：6—10 题\n一个为期六周的文学课程计划学完六本书：F、K、N、O、R、T，每周只学习其中的一本\n书。此外，还需要对其中的至少一本书撰写书评。对书籍学习的顺序安排以及撰写书评书目的\n选取还需要满足以下条件：\n（1）在相邻两周学习的书目不能都写书评\n（2）如果书目N 不需要写书评，那么R 和T 需要写\n（3）学习N 要早于学习T，学习T 要早于O\n（4）学习F 要早于学习O，学习O 要早于学习K 和R"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7648,8 +6868,7 @@
             "C. 学习顺序：N、F、T、O、K、R；写书评的书目：T、O 和R",
             "D. 学习顺序：N、T、F、O、K、R；写书评的书目：T 和O"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7662,8 +6881,7 @@
             "C. O 需要写书评",
             "D. T 在F 之前学习"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7676,8 +6894,7 @@
             "C. F 需要写书评",
             "D. K 需要写书评"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7690,8 +6907,7 @@
             "C. R 需要写书评",
             "D. F 和T 需要写书评"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7704,8 +6920,7 @@
             "C. 最后三周学习的书目包括K 和R，前三周学习的书目包含F",
             "D. K 和R 在连续的两周学习，O 在第四周学习\n（2021 国考）根据所给材料，回答11—15 题：\n某单位的人事、科研、教育、财务、宣传、后勤和工会7 个部门各由王﹑卫和丁3 位副主\n任中的1 人分管，\n已知：\n（1）教育和财务由同一人分管；\n（2）宣传和后勤由同一人分管；\n（3）丁分管的部门比卫多；\n（4）教育，工会中的一个部门由王分管；"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7718,8 +6933,7 @@
             "C. 王：教育、财务\n卫：人事、后勤\n丁：科研、宣传、工会",
             "D. 王：宣传、后勤\n卫：人事、工会\n丁：科研、教育、财务"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7732,8 +6946,7 @@
             "C. 后勤由丁分管",
             "D. 教育由丁分管"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7746,8 +6959,7 @@
             "C. 人事和宣传由王分管",
             "D. 人事和宣传由丁分管"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7760,26 +6972,20 @@
             "C. 宣传",
             "D. 人事"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
         "page": 210,
         "question_no": 15,
-        "question_text": "15. 如果科研和宣传由同一人分管，那么下列哪项是可能的？\n是",
+        "question_text": "15. 如果科研和宣传由同一人分管，那么下列哪项是可能的？",
         "options": [
             "A. 人事由卫分管",
             "B. 科研由王分管",
             "C. 教育由丁分管",
-            "D. 宣传由卫分管\n根据所给材料，回答16—20 题：\n有四名HR：甲、乙、丙、丁，他们将对七名求职者的申请进行审核，这七名求职者分别",
-            "A、",
-            "B、",
-            "C、",
-            "D、E、F、G。每份申请都将由一名HR 进行审核，每个HR 至少会审核一份申请。\n已知：\n（1）B 的申请必须由丁审核；\n（2）A 的申请必须由审核F 申请的HR 审核；"
+            "D. 宣传由卫分管\n根据所给材料，回答16—20 题：\n有四名HR：甲、乙、丙、丁，他们将对七名求职者的申请进行审核，这七名求职者分别\n是A、B、C、D、E、F、G。每份申请都将由一名HR 进行审核，每个HR 至少会审核一份申请。\n已知：\n（1）B 的申请必须由丁审核；\n（2）A 的申请必须由审核F 申请的HR 审核；"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7792,8 +6998,7 @@
             "C. 甲：G；乙：A，F；丙：E；丁：B，C，D",
             "D. 甲：A，F；乙：C，E，G；丙：D；丁：B"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7806,8 +7011,7 @@
             "C. E 的申请由甲审核",
             "D. F 的申请由丁审核"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7820,8 +7024,7 @@
             "C. E 的申请由丙审核",
             "D. D 的申请由乙审核"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7834,8 +7037,7 @@
             "C. F 的申请由丁审核",
             "D. G 的申请由乙审核"
         ],
-        "images": [],
-        "image": null
+        "images": []
     },
     {
         "source": "判断推理.pdf",
@@ -7848,7 +7050,6 @@
             "C. 4",
             "D. 5"
         ],
-        "images": [],
-        "image": null
+        "images": []
     }
 ]

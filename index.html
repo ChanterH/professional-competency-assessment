@@ -681,10 +681,32 @@
             }
         }
 
-        ::-webkit-scrollbar { width: 4px; }
-        ::-webkit-scrollbar-track { background: transparent; }
-        ::-webkit-scrollbar-thumb { background: #c8c8ce; border-radius: 10px; }
-        ::-webkit-scrollbar-thumb:hover { background: #a8a8ae; }
+/* 页面右侧滚动条 */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f2f2f7;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #b8b8c0;
+    border-radius: 10px;
+    border: 3px solid #f2f2f7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #8e8e96;
+}
+
+/* Firefox 浏览器兼容 */
+html {
+    scrollbar-width: auto;
+    scrollbar-color: #b8b8c0 #f2f2f7;
+}
 
         .option-btn:focus-visible {
             outline: 2px solid var(--accent);
@@ -872,7 +894,10 @@
     function isImageOptionQuestion(q) {
     const images = getQuestionImages(q);
 
-    // 判断推理图片题统一按图片选项题处理
+    if (q.render_mode === 'image_question' && images.length > 0) {
+        return true;
+    }
+
     return String(q.source || '').includes('判断推理') && images.length > 0;
 }
 
@@ -1070,7 +1095,11 @@
                 <span class="question-type-tag ${typeClass}">${escapeHTML(q.displayType)}</span>
                 <div class="question-header">
                     <span class="question-number">${questionNum}</span>
-                    <span class="question-text">${escapeHTML(q.cleanText)}</span>
+                    <span class="question-text">${
+                        imageOptionQuestion
+                            ? '请观察图片中的题干和 A / B / C / D 选项，并点击下方按钮作答。'
+                            : escapeHTML(q.cleanText)
+                    }</span>
                 </div>
                 ${imageHTML}
                 ${optionsHTML}
