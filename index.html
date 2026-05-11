@@ -1,0 +1,1243 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>职业能力与判断推理综合测评</title>
+    <style>
+        :root {
+            --bg: #f2f2f7;
+            --card-bg: #ffffff;
+            --card-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+            --card-shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.08), 0 2px 6px rgba(0, 0, 0, 0.04);
+            --accent: #007aff;
+            --accent-light: #e8f2ff;
+            --accent-dark: #0056cc;
+            --text-primary: #1d1d1f;
+            --text-secondary: #6e6e73;
+            --text-tertiary: #86868b;
+            --border: #e5e5ea;
+            --border-selected: #007aff;
+            --radius-sm: 8px;
+            --radius-md: 12px;
+            --radius-lg: 16px;
+            --radius-xl: 20px;
+            --font-stack: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            --transition-fast: 0.15s cubic-bezier(0.25, 0.1, 0.25, 1);
+            --transition-smooth: 0.25s cubic-bezier(0.25, 0.1, 0.25, 1);
+            --transition-spring: 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+            --content-width: 860px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: var(--font-stack);
+            background-color: var(--bg);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            padding-bottom: 120px;
+        }
+
+        .loading-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(255, 255, 255, 0.9);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            transition: opacity 0.3s ease;
+        }
+
+        .loading-overlay.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .loading-spinner {
+            width: 48px;
+            height: 48px;
+            border: 3px solid #e5e5ea;
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 16px;
+        }
+
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        .loading-text {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .top-bar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            background: rgba(242, 242, 247, 0.78);
+            border-bottom: 0.5px solid rgba(0, 0, 0, 0.08);
+            padding: 14px 24px 0 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            transition: all var(--transition-smooth);
+        }
+
+        .top-bar-header { display: flex; align-items: center; justify-content: space-between; }
+        .top-bar .title-group { display: flex; align-items: center; gap: 10px; }
+
+        .top-bar .logo-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: var(--accent);
+            box-shadow: 0 0 0 4px rgba(0, 122, 255, 0.2);
+            animation: pulse-dot 2.5s ease-in-out infinite;
+        }
+
+        @keyframes pulse-dot {
+            0%, 100% { box-shadow: 0 0 0 4px rgba(0, 122, 255, 0.2); }
+            50% { box-shadow: 0 0 0 10px rgba(0, 122, 255, 0.05); }
+        }
+
+        .top-bar h1 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            letter-spacing: -0.01em;
+            color: var(--text-primary);
+        }
+
+        .top-bar .subtitle {
+            font-size: 0.8rem;
+            color: var(--text-tertiary);
+            font-weight: 400;
+            margin-left: 4px;
+        }
+
+        .timer-capsule {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            background: rgba(0, 0, 0, 0.04);
+            border-radius: 20px;
+            padding: 8px 16px;
+            font-variant-numeric: tabular-nums;
+            font-family: 'SF Mono', 'Menlo', 'Consolas', 'Monaco', monospace;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            transition: all var(--transition-smooth);
+            border: 1px solid transparent;
+            user-select: none;
+            white-space: nowrap;
+        }
+
+        .timer-capsule.warning {
+            color: #ff6b35;
+            border-color: rgba(255, 107, 53, 0.3);
+            background: rgba(255, 107, 53, 0.06);
+            animation: subtle-shake 0.5s ease;
+        }
+
+        @keyframes subtle-shake {
+            0%, 100% { transform: translateX(0); }
+            15% { transform: translateX(-2px); }
+            30% { transform: translateX(2px); }
+            45% { transform: translateX(-2px); }
+            60% { transform: translateX(1px); }
+            75% { transform: translateX(-1px); }
+        }
+
+        .timer-icon { width: 16px; height: 16px; opacity: 0.7; }
+        .timer-icon svg { width: 100%; height: 100%; stroke: currentColor; fill: none; stroke-width: 2; }
+
+        .progress-area { padding-bottom: 12px; }
+
+        .progress-indicator {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            max-width: var(--content-width);
+            margin: 0 auto;
+        }
+
+        .progress-bar-wrap {
+            flex: 1;
+            height: 5px;
+            background: #e5e5ea;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            background: var(--accent);
+            border-radius: 10px;
+            transition: width var(--transition-smooth);
+        }
+
+        .progress-text {
+            font-size: 0.8rem;
+            color: var(--text-tertiary);
+            font-weight: 500;
+            white-space: nowrap;
+            min-width: 50px;
+            text-align: right;
+        }
+
+        .main-container {
+            max-width: var(--content-width);
+            margin: 0 auto;
+            padding: 16px 20px 40px;
+        }
+
+        .question-card {
+            background: var(--card-bg);
+            border-radius: var(--radius-lg);
+            padding: 22px 24px;
+            margin-bottom: 14px;
+            box-shadow: var(--card-shadow);
+            border: 1px solid transparent;
+            transition: all var(--transition-smooth);
+            position: relative;
+            cursor: default;
+        }
+
+        .question-card:hover {
+            box-shadow: var(--card-shadow-hover);
+            border-color: #e8e8ed;
+        }
+
+        .question-card.answered {
+            border-left: 3px solid var(--accent);
+            padding-left: 21px;
+        }
+
+        .question-type-tag {
+            display: inline-block;
+            padding: 3px 10px;
+            background: rgba(0, 122, 255, 0.1);
+            color: var(--accent);
+            font-size: 0.7rem;
+            font-weight: 500;
+            border-radius: 12px;
+            margin-bottom: 8px;
+        }
+
+        .tag-judgement {
+            background: rgba(255, 149, 0, 0.1);
+            color: #ff9500;
+        }
+
+        .question-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background: #f5f5f7;
+            font-size: 0.78rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            margin-right: 8px;
+            flex-shrink: 0;
+        }
+
+        .question-card.answered .question-number {
+            background: var(--accent-light);
+            color: var(--accent);
+        }
+
+        .question-header {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 10px;
+        }
+
+        .question-text {
+            font-size: 0.95rem;
+            font-weight: 500;
+            color: var(--text-primary);
+            line-height: 1.65;
+            flex: 1;
+            white-space: pre-line;
+        }
+
+        .images-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin: 12px 0;
+        }
+
+        .question-image {
+            max-width: 100%;
+            height: auto;
+            max-height: 420px;
+            border-radius: var(--radius-md);
+            display: block;
+            object-fit: contain;
+        }
+
+        .image-question-wrap {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin: 12px 0;
+        }
+
+        .image-question-main {
+            width: 100%;
+            border-radius: var(--radius-md);
+            background: #fff;
+            overflow: hidden;
+        }
+
+        .image-question-main img {
+            max-width: 100%;
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: contain;
+            user-select: none;
+            -webkit-user-drag: none;
+        }
+
+        .image-options-hint {
+            font-size: 0.78rem;
+            color: var(--text-tertiary);
+            margin-top: 2px;
+        }
+
+        .options-group {
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+            margin-top: 12px;
+        }
+
+        .image-choice-options {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 8px;
+            margin-top: 12px;
+        }
+
+        .option-btn {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 11px 16px;
+            border-radius: var(--radius-md);
+            border: 1.5px solid var(--border);
+            background: #fafafa;
+            cursor: pointer;
+            font-family: var(--font-stack);
+            font-size: 0.9rem;
+            color: var(--text-primary);
+            transition: all var(--transition-fast);
+            user-select: none;
+            -webkit-tap-highlight-color: transparent;
+            outline: none;
+            position: relative;
+            text-align: left;
+            width: 100%;
+        }
+
+        .image-choice-options .option-btn {
+            justify-content: center;
+            padding: 12px 10px;
+        }
+
+        .image-choice-options .option-text {
+            display: none;
+        }
+
+        .image-choice-options .check-mark {
+            position: absolute;
+            right: 10px;
+        }
+
+        .option-btn:hover {
+            border-color: #c4c4cc;
+            background: #f5f5f7;
+            transform: translateY(-0.5px);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+        }
+
+        .option-btn:active {
+            transform: scale(0.985);
+            background: #eeeef1;
+            transition: all 0.08s ease;
+        }
+
+        .option-btn.selected {
+            border-color: var(--accent);
+            background: var(--accent-light);
+            box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.08);
+            font-weight: 500;
+            animation: select-pop var(--transition-spring);
+        }
+
+        @keyframes select-pop {
+            0% { transform: scale(1); }
+            40% { transform: scale(0.97); }
+            70% { transform: scale(1.02); }
+            100% { transform: scale(1); }
+        }
+
+        .option-letter {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 26px;
+            height: 26px;
+            border-radius: 50%;
+            background: #e8e8ed;
+            font-weight: 600;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            flex-shrink: 0;
+            transition: all var(--transition-fast);
+        }
+
+        .option-btn.selected .option-letter {
+            background: var(--accent);
+            color: #fff;
+            box-shadow: 0 2px 6px rgba(0, 122, 255, 0.3);
+        }
+
+        .option-text {
+            flex: 1;
+            line-height: 1.45;
+            white-space: pre-line;
+        }
+
+        .check-mark {
+            width: 18px;
+            height: 18px;
+            flex-shrink: 0;
+            opacity: 0;
+            transform: scale(0.5) rotate(-45deg);
+            transition: all var(--transition-spring);
+            color: var(--accent);
+        }
+
+        .option-btn.selected .check-mark {
+            opacity: 1;
+            transform: scale(1) rotate(0deg);
+        }
+
+        .check-mark svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        .submit-area {
+            position: sticky;
+            bottom: 20px;
+            z-index: 50;
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            padding: 0 20px;
+        }
+
+        .submit-btn {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 14px 40px;
+            border-radius: 25px;
+            border: none;
+            background: var(--accent);
+            color: #fff;
+            font-family: var(--font-stack);
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            letter-spacing: 0.01em;
+            box-shadow: 0 4px 16px rgba(0, 122, 255, 0.35);
+            transition: all var(--transition-smooth);
+            user-select: none;
+            -webkit-tap-highlight-color: transparent;
+            outline: none;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .submit-btn:hover {
+            background: #0070e9;
+            box-shadow: 0 6px 22px rgba(0, 122, 255, 0.45);
+            transform: translateY(-1px);
+        }
+
+        .submit-btn:active {
+            transform: scale(0.96);
+            background: #0062cc;
+            box-shadow: 0 2px 8px rgba(0, 122, 255, 0.3);
+            transition: all 0.08s ease;
+        }
+
+        .submit-btn::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, transparent 60%);
+            border-radius: 25px;
+            pointer-events: none;
+        }
+
+        .submit-btn .btn-icon {
+            width: 18px;
+            height: 18px;
+        }
+
+        .success-overlay {
+            position: fixed;
+            inset: 0;
+            z-index: 999;
+            background: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity var(--transition-smooth);
+        }
+
+        .success-overlay.active {
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        .success-dialog {
+            background: #fff;
+            border-radius: var(--radius-xl);
+            padding: 40px 36px;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+            max-width: 420px;
+            width: 90%;
+            animation: dialog-in var(--transition-spring);
+        }
+
+        @keyframes dialog-in {
+            0% { transform: translateY(30px) scale(0.9); opacity: 0; }
+            100% { transform: translateY(0) scale(1); opacity: 1; }
+        }
+
+        .success-icon {
+            width: 64px;
+            height: 64px;
+            margin: 0 auto 20px;
+            background: #34c759;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 8px 24px rgba(52, 199, 89, 0.35);
+            animation: success-bounce 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.1s both;
+        }
+
+        @keyframes success-bounce {
+            0% { transform: scale(0); }
+            50% { transform: scale(1.15); }
+            100% { transform: scale(1); }
+        }
+
+        .success-icon svg {
+            width: 32px;
+            height: 32px;
+            stroke: #fff;
+            fill: none;
+            stroke-width: 3;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        .success-dialog h2 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #1d1d1f;
+            margin-bottom: 8px;
+        }
+
+        .success-dialog p {
+            font-size: 0.95rem;
+            color: #6e6e73;
+            margin-bottom: 24px;
+        }
+
+        .success-dialog .close-btn {
+            padding: 10px 28px;
+            border-radius: 20px;
+            border: none;
+            background: #f5f5f7;
+            color: #1d1d1f;
+            font-weight: 500;
+            cursor: pointer;
+            font-family: var(--font-stack);
+            font-size: 0.9rem;
+            transition: all var(--transition-fast);
+        }
+
+        .success-dialog .close-btn:hover {
+            background: #e8e8ed;
+        }
+
+        .toast {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%) translateY(-120px);
+            z-index: 200;
+            background: #1d1d1f;
+            color: #fff;
+            padding: 12px 24px;
+            border-radius: 25px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+            transition: transform var(--transition-spring);
+            pointer-events: none;
+            white-space: nowrap;
+        }
+
+        .toast.show {
+            transform: translateX(-50%) translateY(0);
+        }
+
+        @media (max-width: 700px) {
+            :root { --content-width: 100%; }
+
+            .top-bar {
+                padding: 10px 14px 0 14px;
+                gap: 8px;
+            }
+
+            .top-bar-header {
+                flex-wrap: wrap;
+                gap: 8px;
+            }
+
+            .top-bar h1 {
+                font-size: 1rem;
+            }
+
+            .timer-capsule {
+                padding: 6px 12px;
+                font-size: 0.78rem;
+            }
+
+            .main-container {
+                padding: 8px 10px 40px;
+            }
+
+            .question-card {
+                padding: 16px 14px;
+                border-radius: var(--radius-md);
+            }
+
+            .question-card.answered {
+                padding-left: 11px;
+            }
+
+            .question-text {
+                font-size: 0.88rem;
+            }
+
+            .question-image {
+                max-height: 340px;
+            }
+
+            .option-btn {
+                padding: 10px 12px;
+                font-size: 0.84rem;
+                border-radius: 10px;
+            }
+
+            .image-choice-options {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .submit-btn {
+                padding: 12px 30px;
+                font-size: 0.9rem;
+            }
+        }
+
+        ::-webkit-scrollbar { width: 4px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #c8c8ce; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: #a8a8ae; }
+
+        .option-btn:focus-visible {
+            outline: 2px solid var(--accent);
+            outline-offset: 2px;
+        }
+
+        .submit-btn:focus-visible {
+            outline: 3px solid rgba(0, 122, 255, 0.5);
+            outline-offset: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+        <div class="loading-text" id="loadingText">正在读取题库数据...</div>
+    </div>
+
+    <div class="top-bar" id="topBar">
+        <div class="top-bar-header">
+            <div class="title-group">
+                <div class="logo-dot"></div>
+                <h1>综合能力测评</h1>
+                <span class="subtitle">· 共30题</span>
+            </div>
+
+            <div class="timer-capsule" id="timerCapsule">
+                <span class="timer-icon">
+                    <svg viewBox="0 0 24 24">
+                        <circle cx="12" cy="13" r="9"/>
+                        <polyline points="12 7 12 13 16 15"/>
+                        <line x1="12" y1="3" x2="12" y2="5"/>
+                    </svg>
+                </span>
+                <span id="timerDisplay">00:00</span>
+            </div>
+        </div>
+
+        <div class="progress-area">
+            <div class="progress-indicator">
+                <div class="progress-bar-wrap">
+                    <div class="progress-bar-fill" id="progressBar" style="width: 0%;"></div>
+                </div>
+                <span class="progress-text" id="progressText">0/30</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-container" id="mainContainer">
+        <div id="questionsContainer"></div>
+
+        <div class="submit-area">
+            <button class="submit-btn" id="submitBtn" onclick="handleSubmit()">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                提交试卷
+            </button>
+        </div>
+    </div>
+
+    <div class="success-overlay" id="successOverlay">
+        <div class="success-dialog">
+            <div class="success-icon">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <h2>提交成功</h2>
+            <p>感谢参与！您的答卷已成功记录。</p>
+            <button class="close-btn" onclick="closeSuccess()">关闭</button>
+        </div>
+    </div>
+
+    <div class="toast" id="toast"></div>
+
+ <script>
+    let questionsData = [];
+    const answers = {};
+    let timerSeconds = 0;
+    let timerInterval = null;
+
+    function shuffleArray(array) {
+        const arr = [...array];
+
+        for (let i = arr.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [arr[i], arr[j]] = [arr[j], arr[i]];
+        }
+
+        return arr;
+    }
+
+    function escapeHTML(value) {
+        return String(value ?? '')
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#039;');
+    }
+
+    function getQuestionImages(q) {
+        if (Array.isArray(q.images) && q.images.length > 0) {
+            return q.images.filter(Boolean);
+        }
+
+        if (q.image) {
+            return [q.image];
+        }
+
+        return [];
+    }
+
+    function normalizeOptions(options) {
+        if (!Array.isArray(options)) {
+            return [];
+        }
+
+        return options
+            .map(opt => String(opt || '').trim())
+            .filter(Boolean);
+    }
+
+    function parseOptionsFromQuestionText(text) {
+        const fullText = String(text || '').trim();
+
+        if (!fullText) {
+            return {
+                questionText: '',
+                options: []
+            };
+        }
+
+        const optionRegex = /(?:^|\n|\s)([A-D])[\.\、．]\s*/g;
+        const matches = [];
+        let match;
+
+        while ((match = optionRegex.exec(fullText)) !== null) {
+            matches.push({
+                letter: match[1],
+                index: match.index,
+                contentStart: optionRegex.lastIndex
+            });
+        }
+
+        if (matches.length < 4) {
+            return {
+                questionText: fullText,
+                options: []
+            };
+        }
+
+        const validLetters = matches.slice(0, 4).map(m => m.letter).join('');
+        if (validLetters !== 'ABCD') {
+            return {
+                questionText: fullText,
+                options: []
+            };
+        }
+
+        const questionText = fullText.slice(0, matches[0].index).trim();
+        const options = [];
+
+        for (let i = 0; i < 4; i++) {
+            const start = matches[i].contentStart;
+            const end = i + 1 < 4 ? matches[i + 1].index : fullText.length;
+            const letter = matches[i].letter;
+            const content = fullText.slice(start, end).trim();
+
+            options.push(`${letter}. ${content}`);
+        }
+
+        return {
+            questionText,
+            options
+        };
+    }
+
+    function cleanQuestionNumber(text) {
+        return String(text || '')
+            .replace(/^\s*\d+\s*[\.、．]\s*/, '')
+            .replace(/^\s*\d+\.\s*\(/, '(')
+            .trim();
+    }
+
+    function isImageOptionQuestion(q) {
+    const images = getQuestionImages(q);
+
+    // 判断推理图片题统一按图片选项题处理
+    return String(q.source || '').includes('判断推理') && images.length > 0;
+}
+
+    function isUsableQuestion(q) {
+        const options = normalizeOptions(q.options);
+        const images = getQuestionImages(q);
+
+        // 正常文字题：必须有真实选项
+        if (options.length >= 2) {
+            return true;
+        }
+
+        // 图片选项题：允许没有文字选项，但必须有图片
+        if (images.length > 0) {
+            return true;
+        }
+
+        // 没有选项、没有图片的题目不能进入抽题池
+        return false;
+    }
+
+    function buildOptionButtons(q, optionCount = 4, compact = false) {
+        const optionLetters = ['A', 'B', 'C', 'D'];
+        const options = normalizeOptions(q.options);
+        let html = '';
+
+        for (let optIndex = 0; optIndex < optionCount; optIndex++) {
+            const letter = optionLetters[optIndex] || String.fromCharCode(65 + optIndex);
+
+            let cleanOpt = '';
+            if (options[optIndex]) {
+                cleanOpt = String(options[optIndex])
+                    .replace(/^[A-D][\.、．\s]+/, '')
+                    .trim();
+            }
+
+            html += `
+                <button class="option-btn"
+                        data-qid="${q.displayId}"
+                        data-optindex="${optIndex}"
+                        onclick="selectOption(${q.displayId}, ${optIndex}, this)"
+                        aria-label="选项 ${letter}">
+                    <span class="option-letter">${letter}</span>
+                    <span class="option-text">${escapeHTML(compact ? letter : cleanOpt)}</span>
+                    <span class="check-mark">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                    </span>
+                </button>
+            `;
+        }
+
+        const groupClass = compact ? 'options-group image-choice-options' : 'options-group';
+        return `<div class="${groupClass}" id="optionsGroup${q.displayId}">${html}</div>`;
+    }
+
+    function buildNormalImageHTML(q) {
+        const images = getQuestionImages(q);
+
+        if (!images.length) {
+            return '';
+        }
+
+        let imageHTML = `<div class="images-container">`;
+
+        images.forEach(imgSrc => {
+            imageHTML += `<img src="${escapeHTML(imgSrc)}" class="question-image" alt="题目配图">`;
+        });
+
+        imageHTML += `</div>`;
+        return imageHTML;
+    }
+
+    function buildImageOptionHTML(q) {
+        const images = getQuestionImages(q);
+
+        if (!images.length) {
+            return '';
+        }
+
+        const imgSrc = escapeHTML(images[0]);
+
+        return `
+            <div class="image-question-wrap">
+                <div class="image-question-main">
+                    <img src="${imgSrc}" alt="判断推理题目与选项图">
+                </div>
+                <div class="image-options-hint">请观察图片中的 A / B / C / D 选项，并点击下方按钮作答。</div>
+            </div>
+        `;
+    }
+
+    async function loadQuestions() {
+        try {
+            const response = await fetch('questions_database.json');
+
+            if (!response.ok) {
+                throw new Error('网络响应异常，请确保在本地服务器下运行。');
+            }
+
+            const rawData = await response.json();
+
+            let profAbility = [];
+            let judgReasoning = [];
+
+            rawData.forEach(originalQ => {
+    const q = { ...originalQ };
+    const source = String(q.source || '');
+    const images = getQuestionImages(q);
+
+    q.options = normalizeOptions(q.options);
+
+    // 只有“没有图片的文字题”才尝试从 question_text 中拆选项
+    // 避免判断推理题干里的 “A、B、C 三个顶点” 被误识别成选项
+    if (
+        images.length === 0 &&
+        (!Array.isArray(q.options) || q.options.length === 0)
+    ) {
+        const parsed = parseOptionsFromQuestionText(q.question_text);
+
+        if (parsed.options.length >= 4) {
+            q.options = parsed.options;
+            q.question_text = parsed.questionText;
+        }
+    }
+
+    q.options = normalizeOptions(q.options);
+
+    if (source.includes('职业能力')) {
+        if (isUsableQuestion(q)) {
+            profAbility.push(q);
+        }
+    } else if (source.includes('判断推理')) {
+        if (isUsableQuestion(q)) {
+            judgReasoning.push(q);
+        }
+    }
+});
+
+            const selectedProf = shuffleArray(profAbility).slice(0, 25);
+            const selectedJudg = shuffleArray(judgReasoning).slice(0, 5);
+
+            questionsData = [...selectedProf, ...selectedJudg];
+
+            questionsData.forEach((q, idx) => {
+                q.displayId = idx + 1;
+                q.displayType = String(q.source || '').includes('职业能力') ? '职业能力' : '判断推理';
+
+                q.cleanText = cleanQuestionNumber(q.question_text);
+
+                if (!q.cleanText && q.displayType === '判断推理') {
+                    q.cleanText = '请观察图形规律，从 A、B、C、D 四个选项中选择最合适的一项。';
+                }
+            });
+
+            renderQuestions();
+            document.getElementById('loadingOverlay').classList.add('hidden');
+            init();
+
+        } catch (error) {
+            console.error("加载数据失败: ", error);
+            document.getElementById('loadingText').innerHTML = '题库加载失败！<br><br>请确保：<br>1. questions_database.json 文件存在<br>2. 请使用本地服务器运行此页面以解决跨域问题（如 VS Code 的 Live Server）';
+            document.querySelector('.loading-spinner').style.display = 'none';
+        }
+    }
+
+    function renderQuestions() {
+        const container = document.getElementById('questionsContainer');
+        container.innerHTML = '';
+
+        questionsData.forEach((q, index) => {
+            const card = document.createElement('div');
+            card.className = 'question-card';
+            card.id = 'qCard' + q.displayId;
+            card.setAttribute('data-qid', q.displayId);
+
+            const questionNum = index + 1;
+            const typeClass = q.displayType === '判断推理' ? 'tag-judgement' : '';
+            const imageOptionQuestion = isImageOptionQuestion(q);
+
+            let imageHTML = '';
+            let optionsHTML = '';
+
+            if (imageOptionQuestion) {
+                imageHTML = buildImageOptionHTML(q);
+                optionsHTML = buildOptionButtons(q, 4, true);
+            } else {
+                imageHTML = buildNormalImageHTML(q);
+                const optionCount = normalizeOptions(q.options).length;
+                optionsHTML = buildOptionButtons(q, optionCount, false);
+            }
+
+            card.innerHTML = `
+                <span class="question-type-tag ${typeClass}">${escapeHTML(q.displayType)}</span>
+                <div class="question-header">
+                    <span class="question-number">${questionNum}</span>
+                    <span class="question-text">${escapeHTML(q.cleanText)}</span>
+                </div>
+                ${imageHTML}
+                ${optionsHTML}
+            `;
+
+            container.appendChild(card);
+        });
+
+        document.querySelector('.subtitle').textContent = `· 共${questionsData.length}题`;
+        document.getElementById('progressText').textContent = `0/${questionsData.length}`;
+    }
+
+    function selectOption(qid, optIndex, btnElement) {
+        answers[qid] = optIndex;
+
+        const card = document.getElementById('qCard' + qid);
+        const allBtns = card.querySelectorAll('.option-btn');
+
+        allBtns.forEach(b => b.classList.remove('selected'));
+        btnElement.classList.add('selected');
+        card.classList.add('answered');
+
+        updateProgress();
+
+        btnElement.style.transition = 'all 0.08s ease';
+        btnElement.style.transform = 'scale(0.94)';
+
+        setTimeout(() => {
+            btnElement.style.transform = '';
+            btnElement.style.transition = '';
+        }, 120);
+    }
+
+    function updateProgress() {
+        const answeredCount = Object.keys(answers).length;
+        const total = questionsData.length;
+        const percentage = total > 0 ? Math.round((answeredCount / total) * 100) : 0;
+
+        document.getElementById('progressBar').style.width = percentage + '%';
+        document.getElementById('progressText').textContent = answeredCount + '/' + total;
+    }
+
+    function startTimer() {
+        timerInterval = setInterval(() => {
+            timerSeconds++;
+            updateTimerDisplay();
+
+            if (timerSeconds >= 1800) {
+                document.getElementById('timerCapsule').classList.add('warning');
+            }
+        }, 1000);
+    }
+
+    function updateTimerDisplay() {
+        const mins = Math.floor(timerSeconds / 60);
+        const secs = timerSeconds % 60;
+        const display = String(mins).padStart(2, '0') + ':' + String(secs).padStart(2, '0');
+
+        document.getElementById('timerDisplay').textContent = display;
+    }
+
+    function handleSubmit() {
+        const answeredCount = Object.keys(answers).length;
+        const total = questionsData.length;
+
+        if (answeredCount < total) {
+            const unanswered = total - answeredCount;
+            showToast('还有 ' + unanswered + ' 道题未作答，请检查后提交');
+
+            for (let i = 0; i < questionsData.length; i++) {
+                const qid = questionsData[i].displayId;
+
+                if (!(qid in answers)) {
+                    const card = document.getElementById('qCard' + qid);
+
+                    card.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'center'
+                    });
+
+                    card.style.boxShadow = '0 0 0 4px rgba(255,149,0,0.4)';
+
+                    setTimeout(() => {
+                        card.style.boxShadow = '';
+                    }, 1500);
+
+                    break;
+                }
+            }
+
+            return;
+        }
+
+        if (timerInterval) {
+            clearInterval(timerInterval);
+            timerInterval = null;
+        }
+
+        document.getElementById('successOverlay').classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeSuccess() {
+        document.getElementById('successOverlay').classList.remove('active');
+        document.body.style.overflow = '';
+        document.getElementById('timerCapsule').classList.remove('warning');
+    }
+
+    let toastTimeout;
+
+    function showToast(message) {
+        const toast = document.getElementById('toast');
+
+        toast.textContent = message;
+        toast.classList.add('show');
+
+        if (toastTimeout) {
+            clearTimeout(toastTimeout);
+        }
+
+        toastTimeout = setTimeout(() => {
+            toast.classList.remove('show');
+        }, 2500);
+    }
+
+    document.addEventListener('keydown', function(e) {
+        const activeEl = document.activeElement;
+        const card = activeEl && activeEl.closest ? activeEl.closest('.question-card') : null;
+
+        if (card) {
+            const qid = parseInt(card.getAttribute('data-qid'), 10);
+            const keyMap = {
+                '1': 0,
+                '2': 1,
+                '3': 2,
+                '4': 3,
+                'a': 0,
+                'b': 1,
+                'c': 2,
+                'd': 3,
+                'A': 0,
+                'B': 1,
+                'C': 2,
+                'D': 3
+            };
+
+            if (e.key in keyMap && !e.metaKey && !e.ctrlKey && !e.altKey) {
+                e.preventDefault();
+
+                const optIndex = keyMap[e.key];
+                const btn = card.querySelector(`.option-btn[data-optindex="${optIndex}"]`);
+
+                if (btn) {
+                    selectOption(qid, optIndex, btn);
+                }
+            }
+        }
+    });
+
+    function init() {
+        updateProgress();
+        startTimer();
+        updateTimerDisplay();
+    }
+
+    document.addEventListener('DOMContentLoaded', loadQuestions);
+</script>
+
+</body>
+</html>
