@@ -781,7 +781,7 @@ html {
 
     <div class="toast" id="toast"></div>
 
- <script>
+<script>
     let questionsData = [];
     const answers = {};
     let timerSeconds = 0;
@@ -859,6 +859,7 @@ html {
         }
 
         const validLetters = matches.slice(0, 4).map(m => m.letter).join('');
+
         if (validLetters !== 'ABCD') {
             return {
                 questionText: fullText,
@@ -892,30 +893,59 @@ html {
     }
 
     function isImageOptionQuestion(q) {
-    const images = getQuestionImages(q);
+        const images = getQuestionImages(q);
 
-    if (q.render_mode === 'image_question' && images.length > 0) {
-        return true;
+        if (q.render_mode === 'image_question' && images.length > 0) {
+            return true;
+        }
+
+        return String(q.source || '').includes('判断推理') && images.length > 0;
     }
 
-    return String(q.source || '').includes('判断推理') && images.length > 0;
-}
+    function isAnalogyQuestion(q) {
+        const text = String(q.cleanText || q.question_text || '');
+        const options = normalizeOptions(q.options);
+        const hasImages = getQuestionImages(q).length > 0;
+
+        if (hasImages) {
+            return false;
+        }
+
+        const textHasColon = /[:：]/.test(text);
+        const optionColonCount = options.filter(opt => /[:：]/.test(opt)).length;
+
+        return textHasColon && optionColonCount >= 3;
+    }
+
+    function getQuestionDisplayText(q, imageOptionQuestion) {
+        if (imageOptionQuestion) {
+            return '请观察图片中的题干和 A / B / C / D 选项，并点击下方按钮作答。';
+        }
+
+        if (isAnalogyQuestion(q)) {
+            return `【类比推理】请选择与题干词语关系最合适的一项。\n${q.cleanText}`;
+        }
+
+        return q.cleanText;
+    }
 
     function isUsableQuestion(q) {
         const options = normalizeOptions(q.options);
         const images = getQuestionImages(q);
 
-        // 正常文字题：必须有真实选项
-        if (options.length >= 2) {
+        if (q.render_mode === 'image_question' && images.length > 0) {
             return true;
         }
 
-        // 图片选项题：允许没有文字选项，但必须有图片
-        if (images.length > 0) {
+        if (String(q.source || '').includes('判断推理') && images.length > 0) {
             return true;
         }
 
-        // 没有选项、没有图片的题目不能进入抽题池
+        // 文字题必须有完整选项，避免只显示 A/B 或 A/B/C
+        if (options.length >= 4) {
+            return true;
+        }
+
         return false;
     }
 
@@ -928,6 +958,7 @@ html {
             const letter = optionLetters[optIndex] || String.fromCharCode(65 + optIndex);
 
             let cleanOpt = '';
+
             if (options[optIndex]) {
                 cleanOpt = String(options[optIndex])
                     .replace(/^[A-D][\.、．\s]+/, '')
@@ -952,6 +983,7 @@ html {
         }
 
         const groupClass = compact ? 'options-group image-choice-options' : 'options-group';
+
         return `<div class="${groupClass}" id="optionsGroup${q.displayId}">${html}</div>`;
     }
 
@@ -969,6 +1001,7 @@ html {
         });
 
         imageHTML += `</div>`;
+
         return imageHTML;
     }
 
@@ -996,7 +1029,7 @@ html {
             const response = await fetch('questions_database.json');
 
             if (!response.ok) {
-                throw new Error('网络响应异常，请确保在本地服务器下运行。');
+                throw new Error('网络响应异常，请确保在本地服务器或 GitHub Pages 下运行。');
             }
 
             const rawData = await response.json();
@@ -1005,38 +1038,38 @@ html {
             let judgReasoning = [];
 
             rawData.forEach(originalQ => {
-    const q = { ...originalQ };
-    const source = String(q.source || '');
-    const images = getQuestionImages(q);
+                const q = { ...originalQ };
+                const source = String(q.source || '');
+                const images = getQuestionImages(q);
 
-    q.options = normalizeOptions(q.options);
+                q.options = normalizeOptions(q.options);
 
-    // 只有“没有图片的文字题”才尝试从 question_text 中拆选项
-    // 避免判断推理题干里的 “A、B、C 三个顶点” 被误识别成选项
-    if (
-        images.length === 0 &&
-        (!Array.isArray(q.options) || q.options.length === 0)
-    ) {
-        const parsed = parseOptionsFromQuestionText(q.question_text);
+                // 只有没有图片的文字题，才尝试从 question_text 里拆 A/B/C/D。
+                // 避免图形题里的 A、B、C 顶点被误识别成选项。
+                if (
+                    images.length === 0 &&
+                    (!Array.isArray(q.options) || q.options.length === 0)
+                ) {
+                    const parsed = parseOptionsFromQuestionText(q.question_text);
 
-        if (parsed.options.length >= 4) {
-            q.options = parsed.options;
-            q.question_text = parsed.questionText;
-        }
-    }
+                    if (parsed.options.length >= 4) {
+                        q.options = parsed.options;
+                        q.question_text = parsed.questionText;
+                    }
+                }
 
-    q.options = normalizeOptions(q.options);
+                q.options = normalizeOptions(q.options);
 
-    if (source.includes('职业能力')) {
-        if (isUsableQuestion(q)) {
-            profAbility.push(q);
-        }
-    } else if (source.includes('判断推理')) {
-        if (isUsableQuestion(q)) {
-            judgReasoning.push(q);
-        }
-    }
-});
+                if (source.includes('职业能力')) {
+                    if (isUsableQuestion(q)) {
+                        profAbility.push(q);
+                    }
+                } else if (source.includes('判断推理')) {
+                    if (isUsableQuestion(q)) {
+                        judgReasoning.push(q);
+                    }
+                }
+            });
 
             const selectedProf = shuffleArray(profAbility).slice(0, 25);
             const selectedJudg = shuffleArray(judgReasoning).slice(0, 5);
@@ -1050,7 +1083,7 @@ html {
                 q.cleanText = cleanQuestionNumber(q.question_text);
 
                 if (!q.cleanText && q.displayType === '判断推理') {
-                    q.cleanText = '请观察图形规律，从 A、B、C、D 四个选项中选择最合适的一项。';
+                    q.cleanText = '请观察题目内容，从 A、B、C、D 四个选项中选择最合适的一项。';
                 }
             });
 
@@ -1060,7 +1093,7 @@ html {
 
         } catch (error) {
             console.error("加载数据失败: ", error);
-            document.getElementById('loadingText').innerHTML = '题库加载失败！<br><br>请确保：<br>1. questions_database.json 文件存在<br>2. 请使用本地服务器运行此页面以解决跨域问题（如 VS Code 的 Live Server）';
+            document.getElementById('loadingText').innerHTML = '题库加载失败！<br><br>请确保：<br>1. questions_database.json 文件存在<br>2. GitHub Pages 已部署完成<br>3. 本地运行时请使用 Live Server 或 Python 本地服务器';
             document.querySelector('.loading-spinner').style.display = 'none';
         }
     }
@@ -1091,15 +1124,13 @@ html {
                 optionsHTML = buildOptionButtons(q, optionCount, false);
             }
 
+            const questionDisplayText = getQuestionDisplayText(q, imageOptionQuestion);
+
             card.innerHTML = `
                 <span class="question-type-tag ${typeClass}">${escapeHTML(q.displayType)}</span>
                 <div class="question-header">
                     <span class="question-number">${questionNum}</span>
-                    <span class="question-text">${
-                        imageOptionQuestion
-                            ? '请观察图片中的题干和 A / B / C / D 选项，并点击下方按钮作答。'
-                            : escapeHTML(q.cleanText)
-                    }</span>
+                    <span class="question-text">${escapeHTML(questionDisplayText)}</span>
                 </div>
                 ${imageHTML}
                 ${optionsHTML}
